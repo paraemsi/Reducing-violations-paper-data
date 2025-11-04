@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-26-21-19-04--cpp_misra_deepseek-chat.13/cpp/exercises/practice/circular-buffer",
+    "testcase": "circular-buffer",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.00897822,
+    "duration": 265.3108139038086,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 26086,
+    "completion_tokens": 4994,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "e9047d1f07858a19aa87144a13a5f9ac8d8406aa"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a3661ea136f3f30698593433c148cce65f1802ef"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "49dfe6ecf41ed6358a132d55eacb87640d8191f8"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "4df85d342d2c75f7923b9b4dbaa0da861a1e4403"
+        ]
+    ]
+}

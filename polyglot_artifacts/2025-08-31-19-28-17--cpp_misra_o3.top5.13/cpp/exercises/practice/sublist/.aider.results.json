@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-31-19-28-17--cpp_misra_o3.top5.13/cpp/exercises/practice/sublist",
+    "testcase": "sublist",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.13107,
+    "duration": 111.24600744247437,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 41391,
+    "completion_tokens": 8700,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "9a25fcdd500e010bb43a68fe0e9a0146b21224d9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "5222a96012207a4654fe89d042e44e0e4906fee9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "56f21d01abf7515646002c6f34c0ef4fd75e2605"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "7613db8677a520763151a0f7e47a787f45d5a368"
+        ]
+    ]
+}

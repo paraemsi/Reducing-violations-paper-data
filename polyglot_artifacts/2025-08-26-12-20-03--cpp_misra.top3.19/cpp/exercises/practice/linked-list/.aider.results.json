@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-26-12-20-03--cpp_misra.top3.19/cpp/exercises/practice/linked-list",
+    "testcase": "linked-list",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.054456,
+    "duration": 97.07281112670898,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 25136,
+    "completion_tokens": 2539,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "c57b49e5f16155b95e038a73ca56708e0ba538f6"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "97a453ac598d4a5f998bf14669eb5d983030c35d"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "8dd8c39c30b6bd9f72c2ac8d10127d5efb91136f"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "b693bd9d1ca5ce497c1adb495849522d328fee1c"
+        ]
+    ]
+}

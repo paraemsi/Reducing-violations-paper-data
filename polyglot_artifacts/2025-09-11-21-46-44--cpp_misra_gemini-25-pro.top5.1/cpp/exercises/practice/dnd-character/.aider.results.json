@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.7156040625000001,
+    "duration": 517.7480700016022,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 107007,
+    "completion_tokens": 57042,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "a9a6b2a5c7729c1af98c9c27041272bdb80ffba8"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "89f6a45663ba558181a8c927a6ccd3743a08bb9b"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "6ffd41df925587c67f51fd04e350ad87e18bebd0"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "89134c479e3311407e0644393320d80712432437"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "78be522f0754aca34af9a621ff9b4c7604e0d5ec"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "1c744d1dfb31a3b00c86e297c86e72f9326c6f7b"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "403fda3854bad698457a4ca5411c16b303588a01"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "dfd633a8415f8ade8aab3b51d7ec9bb7200bb166"
+        ]
+    ]
+}

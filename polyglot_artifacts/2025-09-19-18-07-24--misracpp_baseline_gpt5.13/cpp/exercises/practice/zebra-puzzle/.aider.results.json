@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-09-19-18-07-24--misracpp_baseline_gpt5.13/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.21653075,
+    "duration": 320.93044209480286,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 38927,
+    "completion_tokens": 18976,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "7d2081e3bc66e126123fb189b978d7addccd5ba6"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "62c64eaa966200c189fbfd0df6e3f8c221767ca7"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "86e7d64f6895fd047d48614cc8dded7b2d1754e3"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "3751d40999fe0efc0f0ef9726d748270ecdf8338"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "eca452a21a74ec668bc8d5512ea87bfa58d7bcdb"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "d7e44b283c45e005431d8bd5e4fe0c6905a87714"
+        ]
+    ]
+}

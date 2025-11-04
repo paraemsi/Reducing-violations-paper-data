@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-01-01-51-19--cpp_misra_deepseek-chat.top5.16/cpp/exercises/practice/knapsack",
+    "testcase": "knapsack",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.00978526,
+    "duration": 261.94468355178833,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 28508,
+    "completion_tokens": 5203,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "53b50f656af8faaaa86236d40d8cf0b640f7bbbe"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "2ab4fe41a43df65609ec7c3b36e6261a3daed956"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b1f52bd475023b23a50e23b7ca2223534bd83d2f"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0cae34ced917ecc9e1272e5c55a6dfe4a50c5972"
+        ]
+    ]
+}

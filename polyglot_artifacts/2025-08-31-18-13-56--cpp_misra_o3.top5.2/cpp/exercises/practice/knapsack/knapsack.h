@@ -1,0 +1,24 @@
+#ifndef KNAPSACK_H
+#define KNAPSACK_H
+
+#include <cstdint>
+#include <vector>
+
+namespace knapsack
+{
+
+struct Item
+{
+    std::uint32_t weight;
+    std::uint32_t value;
+};
+
+std::uint32_t knapsack_max_value(const std::vector<Item>& items,
+                                 std::uint32_t maxWeight);
+
+std::uint32_t maximum_value(std::uint32_t maxWeight,
+                            const std::vector<Item>& items);
+
+} // namespace knapsack
+
+#endif // KNAPSACK_H

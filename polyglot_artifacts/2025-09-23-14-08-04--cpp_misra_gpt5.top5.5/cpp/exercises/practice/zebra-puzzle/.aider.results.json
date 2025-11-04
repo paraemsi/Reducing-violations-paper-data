@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-09-23-14-08-04--cpp_misra_gpt5.top5.5/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.10088375000000001,
+    "duration": 248.22180199623108,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 11035,
+    "completion_tokens": 9429,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "75fe9b12663ac71b5d836e35a9e8b11f89fa415d"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "487588b03c3325652ef5b07980dd94dce92e8749"
+        ]
+    ]
+}

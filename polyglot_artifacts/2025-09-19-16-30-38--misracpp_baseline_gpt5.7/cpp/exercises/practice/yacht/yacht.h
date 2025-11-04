@@ -1,0 +1,25 @@
+#pragma once
+
+#include <vector>
+
+namespace yacht {
+
+enum class category {
+    ones,
+    twos,
+    threes,
+    fours,
+    fives,
+    sixes,
+    full_house,
+    four_of_a_kind,
+    little_straight,
+    big_straight,
+    choice,
+    yacht
+};
+
+int score(const std::vector<int>& dice, category cat) noexcept;
+int score(const std::vector<int>& dice, const char* cat) noexcept;
+
+}  // namespace yacht

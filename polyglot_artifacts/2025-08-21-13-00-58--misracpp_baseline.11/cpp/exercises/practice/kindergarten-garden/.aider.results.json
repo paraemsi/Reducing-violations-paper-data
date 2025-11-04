@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-21-13-00-58--misracpp_baseline.11/cpp/exercises/practice/kindergarten-garden",
+    "testcase": "kindergarten-garden",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.159796,
+    "duration": 136.18937873840332,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 111478,
+    "completion_tokens": 3337,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "77dec6f4fc3d64dd4889499abb78f8c778937e75"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "16ec00f2a8fd66a3b3c730703ca8b22b8202254f"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "9fe838319a58c764e06ef4491f495adebad3ce8b"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d5aaf988357b5a4c53003e6c519ff710205bc36b"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "785d98aabe65ae5911b7e0121e9b378e8d7912fe"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "06d5c8564dc244bedb47a48656d60a727252293d"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d7a8fd646e51d7f0778fabf2673abc7831098ab7"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "06d5c8564dc244bedb47a48656d60a727252293d"
+        ]
+    ]
+}

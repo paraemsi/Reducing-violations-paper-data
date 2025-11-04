@@ -1,0 +1,31 @@
+#include "sublist.h"
+#include <vector>
+#include <algorithm>
+
+namespace sublist {
+
+static bool is_sublist(const std::vector<int>& small, const std::vector<int>& big) {
+    if (small.empty()) return true;
+    if (small.size() > big.size()) return false;
+    for (size_t i = 0; i <= big.size() - small.size(); ++i) {
+        if (std::equal(small.begin(), small.end(), big.begin() + i)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+List_comparison sublist(const std::vector<int>& a, const std::vector<int>& b) {
+    if (a == b) {
+        return List_comparison::equal;
+    }
+    if (is_sublist(a, b)) {
+        return List_comparison::sublist;
+    }
+    if (is_sublist(b, a)) {
+        return List_comparison::superlist;
+    }
+    return List_comparison::unequal;
+}
+
+}  // namespace sublist

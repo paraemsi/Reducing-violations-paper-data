@@ -1,0 +1,93 @@
+#include "complex_numbers.h"
+#include <cmath>
+
+namespace complex_numbers {
+
+Complex::Complex(double real, double imag) : real_(real), imag_(imag) {}
+
+double Complex::real() const {
+    return real_;
+}
+
+double Complex::imag() const {
+    return imag_;
+}
+
+double Complex::abs() const {
+    return std::sqrt((real_ * real_) + (imag_ * imag_));
+}
+
+Complex Complex::conj() const {
+    return Complex(real_, -imag_);
+}
+
+Complex Complex::exp() const {
+    // e^(a + bi) = e^a * (cos(b) + i*sin(b))
+    double magnitude = std::exp(real_);
+    return Complex(magnitude * std::cos(imag_), magnitude * std::sin(imag_));
+}
+
+Complex Complex::operator+(const Complex& other) const {
+    return Complex(real_ + other.real_, imag_ + other.imag_);
+}
+
+Complex Complex::operator-(const Complex& other) const {
+    return Complex(real_ - other.real_, imag_ - other.imag_);
+}
+
+Complex Complex::operator*(const Complex& other) const {
+    // (a + bi)*(c + di) = (ac - bd) + (ad + bc)i
+    double real_part = (real_ * other.real_) - (imag_ * other.imag_);
+    double imag_part = (real_ * other.imag_) + (imag_ * other.real_);
+    return Complex(real_part, imag_part);
+}
+
+Complex Complex::operator/(const Complex& other) const {
+    // (a + bi)/(c + di) = [(ac + bd)/(c^2 + d^2)] + [(bc - ad)/(c^2 + d^2)]i
+    double denominator = (other.real_ * other.real_) + (other.imag_ * other.imag_);
+    double real_part = ((real_ * other.real_) + (imag_ * other.imag_)) / denominator;
+    double imag_part = ((imag_ * other.real_) - (real_ * other.imag_)) / denominator;
+    return Complex(real_part, imag_part);
+}
+
+// Implement operations with doubles
+Complex Complex::operator+(double other) const {
+    return Complex(real_ + other, imag_);
+}
+
+Complex Complex::operator-(double other) const {
+    return Complex(real_ - other, imag_);
+}
+
+Complex Complex::operator*(double other) const {
+    return Complex(real_ * other, imag_ * other);
+}
+
+Complex Complex::operator/(double other) const {
+    return Complex(real_ / other, imag_ / other);
+}
+
+// Friend functions for operations where double is on the left
+namespace complex_numbers {
+
+Complex operator+(double lhs, const Complex& rhs) {
+    return Complex(lhs + rhs.real_, rhs.imag_);
+}
+
+Complex operator-(double lhs, const Complex& rhs) {
+    return Complex(lhs - rhs.real_, -rhs.imag_);
+}
+
+Complex operator*(double lhs, const Complex& rhs) {
+    return Complex(lhs * rhs.real_, lhs * rhs.imag_);
+}
+
+Complex operator/(double lhs, const Complex& rhs) {
+    // To compute lhs / (a + bi), which is the same as lhs * conjugate / (a^2 + b^2)
+    double denominator = (rhs.real_ * rhs.real_) + (rhs.imag_ * rhs.imag_);
+    return Complex((lhs * rhs.real_) / denominator, (-lhs * rhs.imag_) / denominator);
+}
+
+}  // namespace complex_numbers
+
+}  // namespace complex_numbers

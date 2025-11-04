@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-26-11-09-41--cpp_misra.top3.4/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.065966,
+    "duration": 56.67465353012085,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 50119,
+    "completion_tokens": 1644,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ac00709d7a04945b9904e1876c35a019268c629a"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "fb237683f5277a7e78582bca1480869d19ffa798"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "c23cddf8aa15f721091eb2aba46e3148e49bc51f"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "a466c8f4bef4f1375a4e1c0954a6bce3ff9ff7c5"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "f657d7ffecc1b3b39fc837f786a383e828a723ed"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "8a4037a6f8ad06fa44c6116af808059344b551bd"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "e16590ae33925fa733b32a5937c24d595fe0eb0f"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "4fc79602d837e7acbce3f0cb0eac0e0d4fa0b066"
+        ]
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-13-12-35-39--cpp_misra_opus-41.top5.1/cpp/exercises/practice/kindergarten-garden",
+    "testcase": "kindergarten-garden",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.971925,
+    "duration": 101.0838303565979,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 48105,
+    "completion_tokens": 3338,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "3da7d8b6548fe4127cd7ddf5256109ad3c4aba2d"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "124179022502f77439ff82247df9fd7e35d98245"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "8ea9143ef95872115a504715fec36f5b1cf33b97"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "0081dfdd3a4ac9ef3195a2fff88e50643e1e34b1"
+        ]
+    ]
+}

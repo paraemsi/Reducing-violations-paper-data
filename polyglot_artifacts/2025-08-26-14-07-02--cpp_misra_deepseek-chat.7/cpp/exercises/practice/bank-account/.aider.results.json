@@ -1,0 +1,38 @@
+{
+    "testdir": "/benchmarks/2025-08-26-14-07-02--cpp_misra_deepseek-chat.7/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.005405060000000001,
+    "duration": 187.38996005058289,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 14788,
+    "completion_tokens": 3169,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "7f28c1a4b5d3c45ff18ab97dbb3b2849b231c2ec"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "551ba98bd3ced3e8b05c38641e4b17eff3c94956"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a98c681df8b886bce6e129544b87d65c92983690"
+        ]
+    ]
+}

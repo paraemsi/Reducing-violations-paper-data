@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-23-15-17-24--cpp_misra_gpt5.top5.8/cpp/exercises/practice/complex-numbers",
+    "testcase": "complex-numbers",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.3061505,
+    "duration": 583.1918182373047,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 62066,
+    "completion_tokens": 26428,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "e0e7f3edff93fb182c643d21f43db29b07ed5ef6"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "79bd4e3cccd6f2ce5319861cec46cd4e1722f5d4"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "b42ccebc8b683ad682678386641de0d083565e04"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "e2d61d7fbc4b65bd0a4e6b5ed677e3ec23338614"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "0d88ca6d2c5651d9bf5dd41105cd231ee033c9b7"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "27d32c254969ac3e22eb415dc8dfa4a45b2394c3"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "4dba3458442633572bd3d1d202afe9d759d16d1e"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "c7543bcdb1c41eee545c1292050c9bff1ddc7e7b"
+        ]
+    ]
+}

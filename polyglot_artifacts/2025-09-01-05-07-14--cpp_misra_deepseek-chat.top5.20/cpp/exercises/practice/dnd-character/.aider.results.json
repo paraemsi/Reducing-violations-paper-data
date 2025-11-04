@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-01-05-07-14--cpp_misra_deepseek-chat.top5.20/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.008041550000000001,
+    "duration": 215.25753235816956,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 29275,
+    "completion_tokens": 3767,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "20838940b1b2005b1a6fceecd6074c3aeaa5c102"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "35c6d37093e05f70bb02b917599d5c41fa29b43d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a50717509ccd4b5c70b4072731acdbcc8862455d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "4e7deecf0be145672b70045c84bb10e89722b582"
+        ]
+    ]
+}

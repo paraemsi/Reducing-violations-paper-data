@@ -1,0 +1,38 @@
+{
+    "testdir": "/benchmarks/2025-09-24-10-08-48--cpp_misra_gpt5.top5.20/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.10805800000000002,
+    "duration": 240.87640523910522,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 13184,
+    "completion_tokens": 9561,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "8f73c2ef718ff4dfd7019ecada300309007f2b4b"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "c5ca47e8bfd2b6bad565ef17fff8805e42305648"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "e2ebdcb97a73e895b1a31693119904a9fcf2aea5"
+        ]
+    ]
+}

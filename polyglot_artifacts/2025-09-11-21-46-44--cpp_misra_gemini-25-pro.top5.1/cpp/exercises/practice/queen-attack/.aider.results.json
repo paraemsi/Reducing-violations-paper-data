@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/queen-attack",
+    "testcase": "queen-attack",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 1.2825890625,
+    "duration": 711.6517057418823,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 312788,
+    "completion_tokens": 84436,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "ab9910414e0eb51968246a40f2990ad03f405424"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "75d9354d471889d2f1a9d9c62a2e1b78969d67ea"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "152ff5ad34441b401eee504ecc4fe50e9952b0ac"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "ca8ef269c0ba6a96fba4793c5028b8f6b2a7644e"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "dce79ac7581d056940af58703141aae0c21a06ce"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "901db088efcb5ba0136cba56aba858c1652f9279"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "a1fc391c6d830be296b53490ba7003dccf383575"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "eca44bb7f01ba0222f2f53670c940e884de0a227"
+        ]
+    ]
+}

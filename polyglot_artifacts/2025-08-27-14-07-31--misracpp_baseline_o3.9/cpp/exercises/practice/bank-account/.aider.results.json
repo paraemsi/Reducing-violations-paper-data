@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-08-27-14-07-31--misracpp_baseline_o3.9/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.052826,
+    "duration": 91.89165878295898,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 6385,
+    "completion_tokens": 5535,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "432f6ece4a1810f9c245509d4106d87c9218687d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "82b0c6027d39e88995c471430587791bcc8825cc"
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-08-26-21-07-40--cpp_misra_deepseek-chat.12/cpp/exercises/practice/gigasecond",
+    "testcase": "gigasecond",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.01055334,
+    "duration": 320.08257818222046,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 38052,
+    "completion_tokens": 5467,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "db013aeb8192fe13f4b79d372c88c1e43cfeda77"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f0f8422ec483169c192c4b09e55cf809f25c59b7"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "2cce952f6b7fa4e627645eeda9993eeaeb561fc8"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "652a37277616ebfff826bdd4334dbd67152762f4"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "4cd576b69e83d80e18b5ee57504c6fff1c97e69a"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "cfb14e4e5871eda06b0b6314d7251a209508b776"
+        ]
+    ]
+}

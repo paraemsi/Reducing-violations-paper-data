@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-21-13-52-26--misracpp_baseline.20/cpp/exercises/practice/allergies",
+    "testcase": "allergies",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.023201999999999997,
+    "duration": 19.716410398483276,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 13785,
+    "completion_tokens": 870,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "972a4cbb8a67987adad988fc3289ee7c66f3bb99"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "b37bcfca8daee95c83aca8345b55d8e4122351a4"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "c41909723cb9ea3f5c37d0ca95fd1eab6cc71ca0"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "86def85456ad9cb2b63ecf7ed474737a8d82396d"
+        ]
+    ]
+}

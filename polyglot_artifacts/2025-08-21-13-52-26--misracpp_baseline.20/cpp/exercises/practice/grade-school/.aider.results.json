@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-21-13-52-26--misracpp_baseline.20/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.62401,
+    "duration": 135.04632306098938,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 7,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 481701,
+    "completion_tokens": 2600,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "7d72389b41cc1ce543feac3ee394d1e1dcf98904"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "00a9d5832c33362b40adc863a89ff10e22fe5333"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "0d65e300b9515d03c350633e32594b8ded751038"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ce29717c5e4119d090f671d263ecc79bc61eaabb"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "aa37199d0e2c700f877a11391dd89ee7bb57aad9"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d56ee990a8ce5be47de904ebdce1bdab959456a7"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "83c3c853fa1e7f639095747d3353e947cd11f78f"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d56ee990a8ce5be47de904ebdce1bdab959456a7"
+        ]
+    ]
+}

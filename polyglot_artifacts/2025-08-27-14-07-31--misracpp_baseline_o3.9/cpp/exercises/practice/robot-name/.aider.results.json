@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-08-27-14-07-31--misracpp_baseline_o3.9/cpp/exercises/practice/robot-name",
+    "testcase": "robot-name",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.036641999999999994,
+    "duration": 47.256606578826904,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 5201,
+    "completion_tokens": 3712,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2fa5f1e44d804da078549a2599ebbddf7c3c2004"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c2206e95b35f448ada47a1c1b88668aceb8c1df6"
+        ]
+    ]
+}

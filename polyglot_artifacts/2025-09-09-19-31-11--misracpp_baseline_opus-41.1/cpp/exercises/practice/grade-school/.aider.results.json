@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-09-19-31-11--misracpp_baseline_opus-41.1/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.44847000000000004,
+    "duration": 64.25100779533386,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 13573,
+    "completion_tokens": 3265,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "f9388c1855ecea40d3341c75ffcf85d6d4c90cc4"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "2dcb1dc6f8b182cbe38f155b53216d41951fd28f"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "dd9998f37067579a9d1a9450ed9fc66ff04c3890"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "b18c075baee254bcafa72fa22c6d891f5fe2dc96"
+        ]
+    ]
+}

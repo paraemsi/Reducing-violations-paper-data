@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-27-15-38-40--misracpp_baseline_o3.17/cpp/exercises/practice/sublist",
+    "testcase": "sublist",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.250472,
+    "duration": 285.8499712944031,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 89196,
+    "completion_tokens": 18322,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "e6240c047e6ed79d529298d574a3751ef64c14c6"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "57038ac5c1cd8c1a57fde3756c33e8f63c8c9af4"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "262735ef4024698198bc2724cec217b5dc83c06a"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "cbc0d644de6a375599b23424f9567ef4b9602590"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "bb436314e8f107a775428c1a75577767aa207c26"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c53ce2df71b3764925cd97e4e52f86d84ebc1ff5"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "88e2638b0ec54f7a45dd1d502c762d8743dcf02c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "910e45334fe455c2b8759c9d732d0df8fc077453"
+        ]
+    ]
+}

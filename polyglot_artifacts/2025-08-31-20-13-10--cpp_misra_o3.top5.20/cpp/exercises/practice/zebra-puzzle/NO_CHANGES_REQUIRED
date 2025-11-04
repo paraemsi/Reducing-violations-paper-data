@@ -1,0 +1,5 @@
+# All requested fixes have been implemented in previous edits.
+# No further source changes are necessary.
+# The field names now match the unit-tests (`drinksWater`, `ownsZebra`),
+# and zebra_puzzle.cpp already uses the same identifiers.
+# No further source changes are necessary.

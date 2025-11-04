@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-09-13-12-35-39--cpp_misra_opus-41.top5.1/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 1.15734,
+    "duration": 401.20438861846924,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 52896,
+    "completion_tokens": 4852,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "f1a1c9be6b9f735b604800fc76ea15ba0dcb13a3"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "32275cf49b3fe502ce4651517eea4a1b2d6a58ad"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "471d75ad2001672b1673d1ee19c12294ff824fcb"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "adf123e90c85bf8594269391f60820ff0790635b"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "253ae1b9f133867983f06a0da8cce5b0c8d83bf1"
+        ]
+    ]
+}

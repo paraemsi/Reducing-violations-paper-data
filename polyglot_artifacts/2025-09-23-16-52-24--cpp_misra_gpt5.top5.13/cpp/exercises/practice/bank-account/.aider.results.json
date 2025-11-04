@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-09-23-16-52-24--cpp_misra_gpt5.top5.13/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.19919625000000002,
+    "duration": 330.54317331314087,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 27789,
+    "completion_tokens": 18246,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "aeb460593aee2030f11b0a1a73eafc25a9a81205"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "52dbefc96277902727d6b28f0b9ea297fa635ce2"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "b09dd8dec5cb633cfed9b35aaa40a778b0864118"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "0935bc0b57742044a87e17cfc451b12ec8482aca"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "f89ccdcd44b1a9e8280e2903495b895fbca1ce36"
+        ]
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-21-13-43-54--misracpp_baseline.18/cpp/exercises/practice/circular-buffer",
+    "testcase": "circular-buffer",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.09516599999999999,
+    "duration": 91.10193681716919,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 64731,
+    "completion_tokens": 2553,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "47b0c17352a749c0d68ce259ff865500d96a1e2e"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "28ace6c9b4875335c62371243cd62b8bf87c2957"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ac792b9dabb15e86b18c5e07011c3dbc59ac1312"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "b04f55931086e7c18329d91e9bfd3740d9629913"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "a969e53f264bae3db93196c8b3cb421dd94d607c"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "efc9091f74a505a86decbd6ccf8128bbfa2c2bce"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "027d4485598b14a7d6d6206dff8cb3e185565a29"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "642b35c79ab34ca3ba61b2536e128c15e1580224"
+        ]
+    ]
+}

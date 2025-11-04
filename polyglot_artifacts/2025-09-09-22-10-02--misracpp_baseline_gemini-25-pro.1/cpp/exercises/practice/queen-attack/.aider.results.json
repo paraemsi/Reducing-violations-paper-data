@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/queen-attack",
+    "testcase": "queen-attack",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.1844175,
+    "duration": 137.70125675201416,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 6446,
+    "completion_tokens": 17636,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "94350a22e2990f259ed27f824fb90b04d4fe0bee"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "1ad8cf41834cff053f5d2cbdf3f9c076b514e043"
+        ]
+    ]
+}

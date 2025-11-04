@@ -1,0 +1,38 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/knapsack",
+    "testcase": "knapsack",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.3125128125,
+    "duration": 224.45785474777222,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 15833,
+    "completion_tokens": 29146,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "1e2c35f170a91de762266f31f2a14be0d3c2e344"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "99bb532bb69cf819faee0d52358d27b45a1e2b82"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "f32b61877b041ae45dba95bc31aa15caa64fa380"
+        ]
+    ]
+}

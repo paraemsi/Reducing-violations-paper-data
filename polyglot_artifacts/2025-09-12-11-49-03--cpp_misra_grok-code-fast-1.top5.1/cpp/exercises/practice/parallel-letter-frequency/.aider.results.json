@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-12-11-49-03--cpp_misra_grok-code-fast-1.top5.1/cpp/exercises/practice/parallel-letter-frequency",
+    "testcase": "parallel-letter-frequency",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.006134199999999999,
+    "duration": 25.537281274795532,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 25301,
+    "completion_tokens": 716,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "921b65843a9df685680340abab783a92e4fa272b"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "26662d3adbd62454e42ebd75374743e46d41ac91"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "4fea5156e9b313f8e02592b77ae6cd6021a39588"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "26662d3adbd62454e42ebd75374743e46d41ac91"
+        ]
+    ]
+}

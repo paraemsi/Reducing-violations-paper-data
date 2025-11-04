@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-31-22-51-22--cpp_misra_deepseek-chat.top5.6/cpp/exercises/practice/spiral-matrix",
+    "testcase": "spiral-matrix",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.00785475,
+    "duration": 234.46617150306702,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 23195,
+    "completion_tokens": 4403,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "e179ee9be9c54acb4db35608d31385f29cb42dae"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c7e70f9c2371415187f89330c5b48f414763e67f"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "d16f55dd8d14a70934b992c94cce8161267b70b9"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "73ccf941855fc1df3b563bb3cab26f7175c4f68b"
+        ]
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-21-09-42-55--misracpp_baseline.7/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.084782,
+    "duration": 114.55996775627136,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 52239,
+    "completion_tokens": 3634,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "5fe30524050786fd232f9dbc10515d5a43f1f968"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "005a9049ad74caef5f7990e929d7f7655612af47"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "0cbc2937eab15ce6975a3b6a613b6eb5c44cd41d"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "0777ee5128e0c14ce6035313ed12f1e4c8c45297"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "e90878b8aedf018bc7f3fac220a8f180b2882760"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "878de472330ce2111efdbc6c6b72da620e194674"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "878de472330ce2111efdbc6c6b72da620e194674"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "878de472330ce2111efdbc6c6b72da620e194674"
+        ]
+    ]
+}

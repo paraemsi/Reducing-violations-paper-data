@@ -1,0 +1,10 @@
+#include "gigasecond.h"
+
+namespace gigasecond {
+
+boost::posix_time::ptime advance(const boost::posix_time::ptime& tp) {
+    static const boost::posix_time::seconds gigasecond{1000000000};
+    return tp + gigasecond;
+}
+
+}  // namespace gigasecond

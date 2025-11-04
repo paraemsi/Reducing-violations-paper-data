@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-12-11-49-03--cpp_misra_grok-code-fast-1.top5.1/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0187833,
+    "duration": 68.86875772476196,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 71274,
+    "completion_tokens": 3019,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "8e77fbbda04b41bbcb6fcd9f34aa8b9e1df8459b"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "acfed56dda2a213ae43e26ebe1822397f8a6a136"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "d090010791607c0d50fd9cfc8f78808922d77ca9"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "a75d66d7471869c919264f67be85c0d92bc7d439"
+        ]
+    ]
+}

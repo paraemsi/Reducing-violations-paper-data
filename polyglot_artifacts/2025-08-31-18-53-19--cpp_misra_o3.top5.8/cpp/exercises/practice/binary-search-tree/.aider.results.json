@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-08-31-18-53-19--cpp_misra_o3.top5.8/cpp/exercises/practice/binary-search-tree",
+    "testcase": "binary-search-tree",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.220078,
+    "duration": 280.2397699356079,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 81011,
+    "completion_tokens": 15609,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2753f01f9d5bbef47a16413809627fc72fce4a9e"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "5521228b79ecbbcb380ff737b694b6a639bfc2f1"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "e20748caf2b0e120e744f9c6f519a8720ece535a"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "672024d30a94daf80b43c043b3a6fb184eac650c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "7661aaad0cd69c8e22751c61daf9db3965fcfd09"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "e0df279f4ab7aabdf923f9e666366972a376580d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "459ddc1cd638de89cd5891e316a2a86e6f360a7d"
+        ]
+    ]
+}

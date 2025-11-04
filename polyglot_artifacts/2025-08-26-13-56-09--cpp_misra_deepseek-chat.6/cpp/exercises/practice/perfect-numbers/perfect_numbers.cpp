@@ -1,0 +1,39 @@
+#include "perfect_numbers.h"
+#include <stdexcept>
+#include <cmath>
+
+namespace perfect_numbers {
+
+classification classify(std::int64_t number) {
+    if (number <= 0) {
+        throw std::domain_error("Classification is only for positive integers");
+    }
+    
+    // Handle number=1 case
+    if (number == 1) {
+        return classification::deficient;
+    }
+    
+    // Calculate the aliquot sum
+    std::int64_t sum = 1; // 1 is always a proper divisor
+    for (std::int64_t i = 2; i <= static_cast<std::int64_t>(std::sqrt(number)); ++i) {
+        if ((number % i) == 0) {
+            sum += i;
+            std::int64_t complement = number / i;
+            if (complement != i) {
+                sum += complement;
+            }
+        }
+    }
+    
+    // Compare the sum to the number
+    if (sum == number) {
+        return classification::perfect;
+    } else if (sum > number) {
+        return classification::abundant;
+    } else {
+        return classification::deficient;
+    }
+}
+
+}  // namespace perfect_numbers

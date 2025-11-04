@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-26-14-07-02--cpp_misra_deepseek-chat.7/cpp/exercises/practice/allergies",
+    "testcase": "allergies",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.00860648,
+    "duration": 295.6137409210205,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 22694,
+    "completion_tokens": 5221,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b564a4fa2a99ee13b51b372f6ed4e0fb4226b6f4"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "61a0b6e47f7de673c285062faaec100869ab095b"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "4c588dd80f440505958292220c4ac34d47928176"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "9e9b41479bb9ec172399057b8dc4faed50533d8c"
+        ]
+    ]
+}

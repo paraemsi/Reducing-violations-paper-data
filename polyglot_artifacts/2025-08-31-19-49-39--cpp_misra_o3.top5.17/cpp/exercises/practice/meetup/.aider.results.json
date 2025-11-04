@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-31-19-49-39--cpp_misra_o3.top5.17/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.21539199999999997,
+    "duration": 152.6792025566101,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 66532,
+    "completion_tokens": 12955,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "fc5c2a4b8956dd732a153a6d789c12704adbf0e5"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "17c70c4ae051cfc4c30fd010fbb60364f9aae8af"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "6c9d886266c1fbeb1f281ff32df1571955f631b3"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "54aca089675c6c98c7461b89177c4292cdf94594"
+        ]
+    ]
+}

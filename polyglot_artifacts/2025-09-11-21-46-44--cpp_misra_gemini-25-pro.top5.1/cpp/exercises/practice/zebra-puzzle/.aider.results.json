@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.3574915625,
+    "duration": 265.18434405326843,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 28545,
+    "completion_tokens": 31928,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "a252573976c6e139290a2112f20caf653ec0a651"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "70874ec68ba178ed6c2a1c28f762b496cdc7920c"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "9a3bcf58d8d8ba12e119d890d9d1f797eaefc22c"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "8b161c5f159525c75ee9c3b3d8ad2a17af14561c"
+        ]
+    ]
+}

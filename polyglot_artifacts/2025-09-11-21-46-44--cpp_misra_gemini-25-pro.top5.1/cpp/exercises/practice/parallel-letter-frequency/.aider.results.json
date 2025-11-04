@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/parallel-letter-frequency",
+    "testcase": "parallel-letter-frequency",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.5265840625000001,
+    "duration": 390.2103703022003,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 46663,
+    "completion_tokens": 46320,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "61b0718c7ccf560f7db02500c7017cea5d653e3e"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "26b661ba33488a350b841baa5b0cc51181818083"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "b28f38fb3266d1c824633ec5e472f18547edd2e4"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "30323ec114ee46ff93e609d2438403b0de5bb5b5"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "606cd68eeb354836b09fb46bdb3cf6f753e2c2e6"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "22d0ca90c941fca396329ebb56494fc06b134dec"
+        ]
+    ]
+}

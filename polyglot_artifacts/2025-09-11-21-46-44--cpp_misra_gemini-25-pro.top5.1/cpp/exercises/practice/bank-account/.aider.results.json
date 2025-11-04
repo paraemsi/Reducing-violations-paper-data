@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.3708778125,
+    "duration": 274.50359773635864,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 29169,
+    "completion_tokens": 33315,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "fbf801d61b286d7fd0cbb4d8f29d18ff6baf86bd"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "909cf68f2826e62f329f81ba9a3ac555fb18917c"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "5452eeaf738c5ab07b73c92f6ced38cfded090f7"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "62acaace2a1510ed19e4ba038f6ffbcb2671e8ce"
+        ]
+    ]
+}

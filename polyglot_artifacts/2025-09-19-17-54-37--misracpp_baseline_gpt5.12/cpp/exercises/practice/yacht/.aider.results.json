@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-09-19-17-54-37--misracpp_baseline_gpt5.12/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.24975475,
+    "duration": 478.21130895614624,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 84791,
+    "completion_tokens": 18999,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "5685bd602c3d040d466c4b63f2e085581d10ce69"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "564fc3788f7e38c1451d8c0fff5b18470c667191"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "8389c0d7b7b6a4d7fe3a7b9a6c8ea27d4cc1b6f8"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "9174b69045a295aa916948d047ad5669722fe338"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "f86845b4509969eabd439c303df9de7cd9c28504"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "f4143fd670c4418312170c9aa93ac0daf0617b2f"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "429f35f845aa25878e03267f9265a34d7b130fae"
+        ]
+    ]
+}

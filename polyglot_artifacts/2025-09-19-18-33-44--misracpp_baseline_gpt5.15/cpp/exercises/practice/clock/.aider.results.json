@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-19-18-33-44--misracpp_baseline_gpt5.15/cpp/exercises/practice/clock",
+    "testcase": "clock",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.30408525000000003,
+    "duration": 574.8100945949554,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 7,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 37785,
+    "completion_tokens": 28119,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "fba40476b89cceeb35b7afd11150855b6364df52"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "ea5f014e8f172c29e214ee7a631dee75fab50618"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "e106b99e52dc507edc89f969a2684a4baca94764"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "06568441698a56f8d5a6d50c7e28f95b82c6286d"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "3c9bbfe82261277c353ee8bd51c97b051f633f7c"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "8cd2896c8d7d2c924986c44f476b7ea89cb9c35c"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "20396674f3b5d52c2e8fffa3222b219719bb93ad"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "792d6854982545c772a104b0c3044c4f2d75886f"
+        ]
+    ]
+}

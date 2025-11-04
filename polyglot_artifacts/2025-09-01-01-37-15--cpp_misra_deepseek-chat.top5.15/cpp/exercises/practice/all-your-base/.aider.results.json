@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-01-01-37-15--cpp_misra_deepseek-chat.top5.15/cpp/exercises/practice/all-your-base",
+    "testcase": "all-your-base",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.00670685,
+    "duration": 174.83178782463074,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 23765,
+    "completion_tokens": 3429,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "84a6f7b1072689561f057d66b2c6cd4a34bf3c18"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c583ecd48ed70bcaf7eed7c0153b0db136ac1ee3"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b90d5f7025f1eda13546ea2ed930c5c231360599"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ff26b01c46d46875d86bb945791a5a68c3e22570"
+        ]
+    ]
+}

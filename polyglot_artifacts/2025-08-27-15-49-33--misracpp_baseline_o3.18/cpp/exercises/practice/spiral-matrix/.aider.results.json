@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-08-27-15-49-33--misracpp_baseline_o3.18/cpp/exercises/practice/spiral-matrix",
+    "testcase": "spiral-matrix",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 1.091384,
+    "duration": 308.91516971588135,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 616432,
+    "completion_tokens": 12171,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c3d5b255a49c78df172b8cce8ba4c9d2c5fe214f"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "5c956c63a33a39b4069cf599c7a6b03fb8b67f3c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d6b0640df329838de2516a545c2c0cfce75eca32"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "fb59df6a32bf4a98a07a28e65a34f813faa0e608"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "98f5eaa984b5ac58eb415bd4adaea081af516538"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "24fba9dc037794c98bb98ca8d934a16b898c7d28"
+        ]
+    ]
+}

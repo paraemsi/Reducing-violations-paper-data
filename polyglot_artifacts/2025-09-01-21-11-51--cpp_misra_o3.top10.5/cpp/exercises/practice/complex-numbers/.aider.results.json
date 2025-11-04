@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-01-21-11-51--cpp_misra_o3.top10.5/cpp/exercises/practice/complex-numbers",
+    "testcase": "complex-numbers",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.145274,
+    "duration": 269.1397852897644,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 26661,
+    "completion_tokens": 13894,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "dc133fc5f298a54b3ef42590dc28ab27612132b1"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "cc9508119e604444df07175fe0b86656598b75e2"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "da81f9e399749b99f94711b74b1353c216b01667"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c0c2eb24487c42237689d8e9ab091520ae145884"
+        ]
+    ]
+}

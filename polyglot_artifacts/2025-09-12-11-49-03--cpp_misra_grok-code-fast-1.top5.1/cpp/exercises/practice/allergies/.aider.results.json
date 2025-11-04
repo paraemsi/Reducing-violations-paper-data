@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-09-12-11-49-03--cpp_misra_grok-code-fast-1.top5.1/cpp/exercises/practice/allergies",
+    "testcase": "allergies",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.0022177,
+    "duration": 15.346603393554688,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 7286,
+    "completion_tokens": 507,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "884ff591001860657e63d6821be198ef4e10b1d0"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "e31d39c0969fb90aebb45fdaf3236c8bbbf43ad1"
+        ]
+    ]
+}

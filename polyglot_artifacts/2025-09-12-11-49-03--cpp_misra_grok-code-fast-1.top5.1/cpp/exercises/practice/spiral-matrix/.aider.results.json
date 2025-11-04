@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-09-12-11-49-03--cpp_misra_grok-code-fast-1.top5.1/cpp/exercises/practice/spiral-matrix",
+    "testcase": "spiral-matrix",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.009213099999999998,
+    "duration": 51.96310043334961,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 29303,
+    "completion_tokens": 2235,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "9daeac76662951ce2b0e32cd1f6f6963fb7f6871"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "aedc0a3f9af32e06937ad0c005172b1a7ff2573c"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "1bf13dab96b09d93787f34da5dc8434a3f8d8cab"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "83bca5d190ed14e10568949ad7924d9355b4dfe1"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "277cef4190581148b5e4f55b96b0d50935b62a5e"
+        ]
+    ]
+}

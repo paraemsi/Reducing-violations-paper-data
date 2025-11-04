@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-09-19-31-11--misracpp_baseline_opus-41.1/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 3.1933949999999998,
+    "duration": 416.41284918785095,
+    "test_timeouts": 1,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 108308,
+    "completion_tokens": 20917,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "345fb02a2d5621b367ada3bce404d2ed11939b32"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "0c64576289031f547de114f5017f4cd169eb13a6"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "e67c874217ddffd45f637649a21c96b0f6b7cedd"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "ba686be73c9cf4f616a48dfa1bc9df2faa51333b"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "bd39fb40b42fd006c6740fd649c915b8a741ef2f"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "3e8e735abced8a36252085f9bbf447f52d58081a"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "735b25d333f1455c2c96813a8c9de57e03251417"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "b4874ffe0d90b7f9ba40e68ee6cae8666b4e2119"
+        ]
+    ]
+}

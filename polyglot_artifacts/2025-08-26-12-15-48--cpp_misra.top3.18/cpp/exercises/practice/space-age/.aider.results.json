@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-26-12-15-48--cpp_misra.top3.18/cpp/exercises/practice/space-age",
+    "testcase": "space-age",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.03276,
+    "duration": 22.512993097305298,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 19228,
+    "completion_tokens": 1064,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "0a3aa1da66cd81eba720c3a278ba26acf27182e8"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "21d8b7eab93a1c47e0a7dead31af6251239362e9"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "86d3404392851ce9463f58cf66649fe69872969d"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d80fa09b420d123d69c8e8c5357c571974411261"
+        ]
+    ]
+}

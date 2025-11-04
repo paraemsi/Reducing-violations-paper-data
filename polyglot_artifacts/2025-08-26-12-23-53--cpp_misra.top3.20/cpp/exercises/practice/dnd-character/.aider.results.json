@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-26-12-23-53--cpp_misra.top3.20/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.115604,
+    "duration": 142.67957258224487,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 74666,
+    "completion_tokens": 3944,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "5eca5de0ff0f2b5fa391cbb4f896b0ca53ceed38"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "19433fdbb671c53ceef76893b65105066ef6776e"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "9d9f147c5f0bf94072a87e59fd1e8db32134b0e1"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d7a6371709d6c61618cc81a860cf5ea716d0c881"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "40e07b9944fc5c2ed08cc61356a137f4526f824b"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "1fda928bf44c7dd560caba86e303cff92365c0a7"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "8f81fc22cd6a0dc665e267d257fed7bd87cdb40d"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "f93204c052c9ec9e069da88557e1e568da9d9a1a"
+        ]
+    ]
+}

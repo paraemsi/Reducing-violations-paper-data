@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-09-13-12-35-39--cpp_misra_opus-41.top5.1/cpp/exercises/practice/linked-list",
+    "testcase": "linked-list",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.285555,
+    "duration": 41.87943196296692,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 9642,
+    "completion_tokens": 1879,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "99b0406ad4ba903878cd44c9e68f6b9e029ee04b"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "420db25c21894e0d6f6c24a1a9536fd4b6ad506e"
+        ]
+    ]
+}

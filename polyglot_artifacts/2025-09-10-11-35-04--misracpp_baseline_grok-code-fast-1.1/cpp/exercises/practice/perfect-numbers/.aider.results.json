@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-10-11-35-04--misracpp_baseline_grok-code-fast-1.1/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0131461,
+    "duration": 41.709328174591064,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 56153,
+    "completion_tokens": 1277,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "01e1876421ca7143a23e97dda93d6687bb6046fd"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "f9f9523a8b847dec698cd308c2f4fa30aec4e95a"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "e5de4aed52e6a0c6cf1a125a22ccdfcf90a0458d"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "560ab5c4bc5aad9bf82e293857b1962a89cb2339"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "4ded5feec79657e7dcde0b0fe7c215f99ae13649"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "0ddbe5041bae6f77ef1b93df78cc92b91eb4ffcb"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "e5de4aed52e6a0c6cf1a125a22ccdfcf90a0458d"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "0ddbe5041bae6f77ef1b93df78cc92b91eb4ffcb"
+        ]
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-08-27-13-37-11--misracpp_baseline_o3.5/cpp/exercises/practice/parallel-letter-frequency",
+    "testcase": "parallel-letter-frequency",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.236598,
+    "duration": 389.43735790252686,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 44987,
+    "completion_tokens": 21064,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "fd3e24db2892672379fbdcff91548918e46cb41a"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "79ecd9998753404c1da0670cacb3fcd60777cd05"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2ea2b7be250b50e5a70cb7ab329a41beb785ccd6"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "6ad5ab9c452a9df769028437fa7d60b57469f3c7"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d7ab57914e51703f4d7f1a7de9e38c1aaff36231"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "82ed7d2ae2980ee67c028a73ba4c69003be15951"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "cc9b2b28d0b96e372a064445e477d67be4d113f7"
+        ]
+    ]
+}

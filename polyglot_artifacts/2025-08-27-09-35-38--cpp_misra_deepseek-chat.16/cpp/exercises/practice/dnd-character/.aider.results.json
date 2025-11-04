@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-27-09-35-38--cpp_misra_deepseek-chat.16/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.028020390000000006,
+    "duration": 826.6746008396149,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 102167,
+    "completion_tokens": 13347,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "7f1ae26b8b3e21f98767520d8687dd6aa98218f3"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "2612fe8bad1cb21da4862113ec0b45500c4c4e17"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "8dcc12f021594317162614474c5b1bfd2308b84b"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "107b98ec17d529ee5d9704a9d023d9ebb0ddb659"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "24327c48e648bafaa4e6dce9959d1ef2d48fc4d6"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "8bfc78023b53fbd0fa8d58d0ffaa6616fe393e41"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "3b64db75e93d59655e7a3610e243efee38450ce0"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b28d24acbad1a5e0153f79dba22e311c433a88d9"
+        ]
+    ]
+}

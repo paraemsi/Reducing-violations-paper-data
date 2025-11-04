@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-09-19-31-11--misracpp_baseline_opus-41.1/cpp/exercises/practice/binary-search-tree",
+    "testcase": "binary-search-tree",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 1.92837,
+    "duration": 207.43462991714478,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 93578,
+    "completion_tokens": 6996,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "63cc0dd9891f87175da1cbbe76ba96f4843ec4d8"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "514509a33c07936ebfdf7936b4ac36eafc59e7a5"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "179b0b9b1b6dc16499b7c7caa8d77a5b0bb9bb9c"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "6d58b59a0d86fac01b2aeeb8356fd2a1d9297cd5"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "bcfdece79214b9bc01b68122ca31e85688e32373"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "b5346fa49c3a08c01a536f3231038168b413cd3a"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "3ad2a7649ff3eb5579ff4518e32c0c5e4b5a12f0"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "0a97ce06b5e5c416b0602476d39becd13e16c3e3"
+        ]
+    ]
+}

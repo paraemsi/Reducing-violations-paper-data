@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-09-12-11-49-03--cpp_misra_grok-code-fast-1.top5.1/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.0042148,
+    "duration": 44.005844831466675,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 12629,
+    "completion_tokens": 1126,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "f0240b65fd7a882d9a9e2e15d94b2c1e8d4b74ba"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "782fd116b0326a900fa873c4cc440bf3fde50b5d"
+        ]
+    ]
+}

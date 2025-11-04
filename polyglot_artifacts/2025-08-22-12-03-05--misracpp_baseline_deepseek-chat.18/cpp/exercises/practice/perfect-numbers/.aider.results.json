@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-22-12-03-05--misracpp_baseline_deepseek-chat.18/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.00483785,
+    "duration": 153.11505484580994,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 15335,
+    "completion_tokens": 2810,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "d06a748c5a356036e9ebca572e895e4b49e51815"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c478bdf0a1e33864ba516950d4829aeb0238c7f2"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "59d83b3eae65619de033684e80999c0d7824f7d1"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "cc0bba59f95cd39e4b6bbfb4f66f7acc43732e90"
+        ]
+    ]
+}

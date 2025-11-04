@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-13-12-35-39--cpp_misra_opus-41.top5.1/cpp/exercises/practice/complex-numbers",
+    "testcase": "complex-numbers",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 1.92741,
+    "duration": 375.95016288757324,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 23,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 76854,
+    "completion_tokens": 10328,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "bee11a1bc14dd3fc4c08ac60ecb746d8cc5beb86"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "a5bfa0b5744fd132bf7e4cc63868208901319a20"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "047d89b9e0c602e6b57f254d908f0ebc1d854646"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "bc3cf2953cb0c7beb885bd6fc753a916ad5e3611"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "ef60a69e95bafbf8617963e03840acc573f01b17"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "ab87ae6b0db112fbbb8bcd0e7ab1f3b4b21872e2"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "91d65d7077406aad84877f99c257c8f6719f023d"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "4ba125913ba2a86c81272f0fa878656d535bf685"
+        ]
+    ]
+}

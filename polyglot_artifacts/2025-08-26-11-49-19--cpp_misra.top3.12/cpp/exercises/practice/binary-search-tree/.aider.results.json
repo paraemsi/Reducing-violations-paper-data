@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-26-11-49-19--cpp_misra.top3.12/cpp/exercises/practice/binary-search-tree",
+    "testcase": "binary-search-tree",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.13877799999999998,
+    "duration": 172.04567670822144,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 86997,
+    "completion_tokens": 5462,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "10f80ccd3b06428a6e3eb18844b7c2d90d36dfb8"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "41b619482025f1a27cfa4f59b894a8764e7c584c"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "58841ae8ad3485c2756503727a3927cb3896c505"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "6f56f8d69dc189a5390fc071edc4bf931d0717c7"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "5aba1940942346840a4811e3e37ccf90cba8d483"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "bdd67affadec4e5c0ff710822a55a40f48cb3416"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "b9ec0dbc65d685586aec7ac195bfb2931de9b48e"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "8137d90e30a6c9e5255399de63de9de799cfce42"
+        ]
+    ]
+}

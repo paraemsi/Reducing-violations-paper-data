@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-09-19-31-11--misracpp_baseline_opus-41.1/cpp/exercises/practice/spiral-matrix",
+    "testcase": "spiral-matrix",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 1.034325,
+    "duration": 112.1548764705658,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 45115,
+    "completion_tokens": 4768,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "fb25097fd901ae339e0e5c0585ce712d9b96017d"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "1a3996a828a864892ddd65f6a0b1651cfc35cd98"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "41554414dec2b332c96b81f758002a41011a9286"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "cb7da3ac8412d9d5475fe03cfc46aa244efe573f"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "f124b3acb1677190e4f36680ec8e6099a5bbb038"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "2b989e2db35cf5728b893e4ea723e9f04c44192e"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "bd7a57fc99b13c237e9b41e1119b4c455b4185de"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "26a1724198a6ecc240e1fbc775a665679ebd55d5"
+        ]
+    ]
+}

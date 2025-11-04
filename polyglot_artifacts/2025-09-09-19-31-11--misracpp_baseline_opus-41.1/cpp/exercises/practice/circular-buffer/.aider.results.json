@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-09-19-31-11--misracpp_baseline_opus-41.1/cpp/exercises/practice/circular-buffer",
+    "testcase": "circular-buffer",
+    "model": "anthropic/claude-opus-4-1-20250805",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.467175,
+    "duration": 62.16351795196533,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 16125,
+    "completion_tokens": 3004,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "948182e55e4c2075783dbccea493dd279aa8968e"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "c4fcfea2eabe303f1b4839a98621ac2836d19a8f"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "e6aa0f42326ef76909234a3b2fedc2f908c229c5"
+        ],
+        [
+            "a621abd757c98a95fb7d210c3c769a89aa0659cc",
+            "4a5efad22758eb5a9f8fb08ea43493e19f6d4e14"
+        ]
+    ]
+}

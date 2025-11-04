@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/gigasecond",
+    "testcase": "gigasecond",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.29536250000000003,
+    "duration": 224.93396878242493,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 14050,
+    "completion_tokens": 27780,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "a99d08f40adb731e35c920ca896ea40ad6ad8838"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "a10c8b834a8685ec754bfd4904bc2579020a5b85"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "f8aff3a38ca669148af788db27f8dedfb867532b"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "e041d77757a2b9a9fa448fe3e1b7bab5f2229892"
+        ]
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-08-21-13-35-36--misracpp_baseline.17/cpp/exercises/practice/gigasecond",
+    "testcase": "gigasecond",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.030643999999999998,
+    "duration": 26.459962844848633,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 27630,
+    "completion_tokens": 859,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d081b5c999d9a261376f492eeef67c31a03e9b1b"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "bd0af1204fbf54172c544f5e18c249c63c343770"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "027c8d50924845367d79cbda8f098d7b0b7752d4"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ae7154f2851fef77020799937fda30551ed443d3"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "6dff63b09a5c280da5f61e27562e37c94d827ad4"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "d1ea5413ccced467e81406d22c7f8645911aef66"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "f810652f86579fa045c1820b998cae367c5fe189"
+        ]
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-27-15-28-55--misracpp_baseline_o3.16/cpp/exercises/practice/sublist",
+    "testcase": "sublist",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.10149599999999999,
+    "duration": 94.41856551170349,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 37020,
+    "completion_tokens": 4416,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "0f662d8b27f25bfbc69b75349579154f6af2fec9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a72dad799283fab12304257eb10714955dc75c28"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "8489856aba67affd52cc58850f6f53a18b1e6773"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "3417e2005482e360278cb12062580752276a105d"
+        ]
+    ]
+}

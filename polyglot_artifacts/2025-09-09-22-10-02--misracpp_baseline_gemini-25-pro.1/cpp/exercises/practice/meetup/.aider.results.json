@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.9310593750000001,
+    "duration": 629.2854878902435,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 118128,
+    "completion_tokens": 78085,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "71046c0f3ee41a5c0fe36dda6ea7713f4196dc18"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "6ebe452ee65093a640f6a2f926205205d267e23f"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "d63b295b87e97dbd587c951e16fc8ed2b1953e33"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "1dac9383995d186e77e7814d36c928e8fcc3ccd0"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "779bff2dd49669fc15bd7eaa74a07f6dfcc6bbbb"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "9bc8867123dc5a071e9b39c285b7b5cc054688f7"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "ce06a968f8f80b21b5af6f072aa9bd05f943af32"
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-01-21-32-32--cpp_misra_o3.top10.7/cpp/exercises/practice/space-age",
+    "testcase": "space-age",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.094774,
+    "duration": 127.08240413665771,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 24495,
+    "completion_tokens": 8579,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d7f34db40eee26aa76e9ce1df86666f03589d94e"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a1c3c870ed9b724033b84ee90db79e60337bcb1c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ec260355add17c3a72a7293b0c9c9f90a55987f9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "9c64b3cdf54be44987a3cae2fe56d0f40082b91f"
+        ]
+    ]
+}

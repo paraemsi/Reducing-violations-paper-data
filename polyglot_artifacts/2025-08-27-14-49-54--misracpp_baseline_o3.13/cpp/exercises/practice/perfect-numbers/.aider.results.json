@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-27-14-49-54--misracpp_baseline_o3.13/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.060668,
+    "duration": 85.90514802932739,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 17486,
+    "completion_tokens": 4532,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c7feb02eaa9531b26da040f419f2b8dd31404883"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "25d71386d81de87baf1cc5c46e01e22e55aab90d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "578d99491627f11d4a02f39408f0d7af7aff40a1"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "71af6110be4b1d34d74c0f433f94a2d04f6a7620"
+        ]
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-21-09-23-39--misracpp_baseline.3/cpp/exercises/practice/crypto-square",
+    "testcase": "crypto-square",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.06029400000000001,
+    "duration": 42.84875726699829,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 41835,
+    "completion_tokens": 1758,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "fccde65ad3613a50bc8898cd91b09147c8ff1105"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ad66d7b525ddff535caa1cf7376f397ea15a4ea2"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "5cd60c2d35871915d40359754f920f9d0864a840"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ce76d5f7548a3631b5fb5f927e92f4cb1ebbfaf5"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "9767e2a59ba9e33518fa450061ff0ff78582aade"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "93292e37199e919c630500e28b38f1ef6b8f6cf9"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "9047bc964c9aba65719eb4b51f19d8f31757beac"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ec13ac20d02c3f36ba92131da7b09e19d1abc56c"
+        ]
+    ]
+}

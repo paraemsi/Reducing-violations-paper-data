@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-21-09-27-19--misracpp_baseline.4/cpp/exercises/practice/parallel-letter-frequency",
+    "testcase": "parallel-letter-frequency",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.052346000000000004,
+    "duration": 33.075567960739136,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 36381,
+    "completion_tokens": 1336,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "9c54dfd7a3dc7ebf09d34ea2fab861fc5510af39"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ed9d573c725860aa05dfefe783f6af2d0af51c14"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "1840b1315ad3b089cb2e26503085323c8bb61a47"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "e504d47bfd27964b01dd4345a4c393e788f4d97b"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "e24cddd0f1c6b74a19a4f22cbd4ff3d50ba0448f"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "fa72e050eb4aaa26f0eee56db2923fd9670d9ef8"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "8541db6d58528895dc39bebe35d182cc5c6df515"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "fa72e050eb4aaa26f0eee56db2923fd9670d9ef8"
+        ]
+    ]
+}

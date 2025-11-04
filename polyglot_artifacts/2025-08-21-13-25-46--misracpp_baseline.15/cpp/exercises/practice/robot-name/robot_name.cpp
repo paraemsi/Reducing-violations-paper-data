@@ -1,0 +1,69 @@
+#include "robot_name.h"
+#include <random>
+#include <string>
+#include <unordered_set>
+#include <mutex>
+
+namespace robot_name {
+
+namespace {
+    std::unordered_set<std::string> used_names;
+    std::mutex used_names_mutex;
+
+    std::string random_name() {
+        static std::random_device rd;
+        static std::mt19937 gen(rd());
+        static std::uniform_int_distribution<> letter_dist('A', 'Z');
+        static std::uniform_int_distribution<> digit_dist(0, 9);
+
+        std::string name;
+        name += static_cast<char>(letter_dist(gen));
+        name += static_cast<char>(letter_dist(gen));
+        for (int i = 0; i < 3; ++i) {
+            name += static_cast<char>('0' + digit_dist(gen));
+        }
+        return name;
+    }
+}
+
+bool is_name_used(const std::string& name) {
+    std::lock_guard<std::mutex> lock(used_names_mutex);
+    return used_names.find(name) != used_names.end();
+}
+
+void register_name(const std::string& name) {
+    std::lock_guard<std::mutex> lock(used_names_mutex);
+    used_names.insert(name);
+}
+
+void unregister_name(const std::string& name) {
+    std::lock_guard<std::mutex> lock(used_names_mutex);
+    used_names.erase(name);
+}
+
+robot::robot() : m_name("") {}
+
+const std::string& robot::name() const {
+    if (m_name.empty()) {
+        generate_name();
+    }
+    return m_name;
+}
+
+void robot::reset() {
+    if (!m_name.empty()) {
+        unregister_name(m_name);
+        m_name.clear();
+    }
+}
+
+void robot::generate_name() const {
+    std::string new_name;
+    do {
+        new_name = random_name();
+    } while (is_name_used(new_name));
+    m_name = new_name;
+    register_name(m_name);
+}
+
+}  // namespace robot_name

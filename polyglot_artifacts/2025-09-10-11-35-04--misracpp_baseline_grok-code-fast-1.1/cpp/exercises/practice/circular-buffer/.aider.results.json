@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-09-10-11-35-04--misracpp_baseline_grok-code-fast-1.1/cpp/exercises/practice/circular-buffer",
+    "testcase": "circular-buffer",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0094984,
+    "duration": 43.25913953781128,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 36842,
+    "completion_tokens": 1420,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "ea483f2f15f9f76b518b0a2831a7bde0ac7ae521"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "07396ee3849ee1629e65b17b8bc1a654b49e431a"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "58e14c4d8d73d6e221be3cc9c124d9995025ab21"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "74b6d11e2e91fa3f698e7d0bee29da0022c09d14"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "7638a780298635ce3bec64c9f0d106ba6b86013e"
+        ]
+    ]
+}

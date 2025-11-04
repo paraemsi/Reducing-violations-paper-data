@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-21-09-31-17--misracpp_baseline.5/cpp/exercises/practice/knapsack",
+    "testcase": "knapsack",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.07514,
+    "duration": 58.58578372001648,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 7,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 47434,
+    "completion_tokens": 2622,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "a44b6367d2def19d9d516e0983f70fede7c92869"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "5d4454708f0f521711895ccbfa0195b5a3caee52"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "27b8b018629f1ecc8f47032d3eeba22731ce87a4"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "56bd4c3304ddb912f4dc92e0929ebb38714dd2f1"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "9196a1e62a66ba77b70ad4ff017b28ae6096a5d1"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "6f9ed5c195cca2aa5b6c9b896a85e5570a95a3d6"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "5cdd68a1ad06f8a81ede4ad1928b8e19c3347f5d"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "a07847be74a1fe1888b7f3ac44f226751f642d52"
+        ]
+    ]
+}

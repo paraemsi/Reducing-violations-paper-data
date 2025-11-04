@@ -1,0 +1,30 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.070555,
+    "duration": 51.40024995803833,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 3068,
+    "completion_tokens": 6672,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "69088cfed957040f5939ca524608e6eccc9b32be"
+        ]
+    ]
+}

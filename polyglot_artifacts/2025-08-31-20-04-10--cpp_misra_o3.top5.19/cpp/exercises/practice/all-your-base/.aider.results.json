@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-31-20-04-10--cpp_misra_o3.top5.19/cpp/exercises/practice/all-your-base",
+    "testcase": "all-your-base",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.085824,
+    "duration": 68.44171142578125,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 26500,
+    "completion_tokens": 6623,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d96b6895bfa6f13a82eca0c4d11eeb6111bd88a6"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "84b8aceecf88d8c5fc5baf454fd161d24e3455f0"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c981cedcf2e48245d7e547ff49d509d6b7a0e3a1"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "545a576cadeb9de411cdc234415ede07abd16ff3"
+        ]
+    ]
+}

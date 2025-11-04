@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-08-22-11-29-58--misracpp_baseline_deepseek-chat.15/cpp/exercises/practice/phone-number",
+    "testcase": "phone-number",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.0033835200000000005,
+    "duration": 120.39005947113037,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 6436,
+    "completion_tokens": 2334,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b062557a64dc6003823e17df813ff8354da42f33"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "97c64d6e25f24a4327193b6c37d88ed82ef43f7e"
+        ]
+    ]
+}

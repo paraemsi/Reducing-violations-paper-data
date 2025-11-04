@@ -1,0 +1,39 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.28440750000000004,
+    "duration": 484.99845814704895,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 40886,
+    "completion_tokens": 23330,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "1456710fcecf7b17552497b320f4ba5c30877863"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "c9a0d4418086bf5155cb359e86a3872e667e678b"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "51603b79833e86f49b4c86fd34db901c4bc2ecb5"
+        ]
+    ]
+}

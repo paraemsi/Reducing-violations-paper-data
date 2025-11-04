@@ -1,0 +1,118 @@
+#include "complex_numbers.h"
+
+namespace complex_numbers {
+
+Complex::Complex(float_alias real, float_alias imag)
+    : m_real(real), m_imag(imag)
+{
+}
+
+float_alias Complex::real() const
+{
+    return m_real;
+}
+
+float_alias Complex::imag() const
+{
+    return m_imag;
+}
+
+Complex Complex::operator+(const Complex& other) const
+{
+    return Complex((m_real + other.m_real), (m_imag + other.m_imag));
+}
+
+Complex Complex::operator-(const Complex& other) const
+{
+    return Complex((m_real - other.m_real), (m_imag - other.m_imag));
+}
+
+Complex Complex::operator*(const Complex& other) const
+{
+    // (a + i*b) * (c + i*d) = (a*c - b*d) + (b*c + a*d) * i
+    float_alias real_part = ((m_real * other.m_real) - (m_imag * other.m_imag));
+    float_alias imag_part = ((m_imag * other.m_real) + (m_real * other.m_imag));
+    return Complex(real_part, imag_part);
+}
+
+Complex Complex::operator/(const Complex& other) const
+{
+    // (a + i*b) / (c + i*d) = ((a*c + b*d)/(c^2 + d^2)) + ((b*c - a*d)/(c^2 + d^2)) * i
+    float_alias denom = ((other.m_real * other.m_real) + (other.m_imag * other.m_imag));
+    float_alias real_part = ((m_real * other.m_real) + (m_imag * other.m_imag)) / denom;
+    float_alias imag_part = ((m_imag * other.m_real) - (m_real * other.m_imag)) / denom;
+    return Complex(real_part, imag_part);
+}
+
+Complex Complex::conjugate() const
+{
+    return Complex(m_real, -m_imag);
+}
+
+Complex Complex::conj() const
+{
+    return conjugate();
+}
+
+// Arithmetic with real numbers (member functions)
+Complex Complex::operator+(float_alias rhs) const
+{
+    return Complex((m_real + rhs), m_imag);
+}
+
+Complex Complex::operator-(float_alias rhs) const
+{
+    return Complex((m_real - rhs), m_imag);
+}
+
+Complex Complex::operator*(float_alias rhs) const
+{
+    return Complex((m_real * rhs), (m_imag * rhs));
+}
+
+Complex Complex::operator/(float_alias rhs) const
+{
+    return Complex((m_real / rhs), (m_imag / rhs));
+}
+
+// Arithmetic with real numbers (friend functions)
+Complex operator+(float_alias lhs, const Complex& rhs)
+{
+    return Complex((lhs + rhs.m_real), rhs.m_imag);
+}
+
+Complex operator-(float_alias lhs, const Complex& rhs)
+{
+    return Complex((lhs - rhs.m_real), (-rhs.m_imag));
+}
+
+Complex operator*(float_alias lhs, const Complex& rhs)
+{
+    return Complex((lhs * rhs.m_real), (lhs * rhs.m_imag));
+}
+
+Complex operator/(float_alias lhs, const Complex& rhs)
+{
+    // (a + 0i) / (c + di) = ((a*c + 0*d)/(c^2 + d^2)) + ((0*c - a*d)/(c^2 + d^2)) * i
+    float_alias denom = ((rhs.m_real * rhs.m_real) + (rhs.m_imag * rhs.m_imag));
+    float_alias real_part = (lhs * rhs.m_real) / denom;
+    float_alias imag_part = (-lhs * rhs.m_imag) / denom;
+    return Complex(real_part, imag_part);
+}
+
+float_alias Complex::abs() const
+{
+    // sqrt(a^2 + b^2)
+    return std::sqrt((m_real * m_real) + (m_imag * m_imag));
+}
+
+Complex Complex::exp() const
+{
+    // e^(a + i*b) = e^a * (cos(b) + i*sin(b))
+    float_alias exp_real = std::exp(m_real);
+    float_alias real_part = exp_real * std::cos(m_imag);
+    float_alias imag_part = exp_real * std::sin(m_imag);
+    return Complex(real_part, imag_part);
+}
+
+}  // namespace complex_numbers

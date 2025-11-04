@@ -1,0 +1,39 @@
+{
+    "testdir": "/benchmarks/2025-09-19-15-30-29--misracpp_baseline_gpt5.3/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.06579025,
+    "duration": 140.6158196926117,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 12253,
+    "completion_tokens": 5609,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "eccb203e7da6b31ebbea93d4a9ccaa1d62f8eead"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "3e9df82edff65e0e2ad940500aed0e4522367d8f"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "5d3f307506eff7a1f548b0fe5e01a659bcb224a6"
+        ]
+    ]
+}

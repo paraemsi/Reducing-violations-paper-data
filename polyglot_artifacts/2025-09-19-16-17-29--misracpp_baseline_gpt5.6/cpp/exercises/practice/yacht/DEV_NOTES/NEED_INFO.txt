@@ -1,0 +1,3 @@
+I don't see any compile-time or logical errors in the provided yacht.h and yacht.cpp.
+
+Please provide the exact compiler or test failure messages so I can address the specific issue(s). If there are style or warning-as-error configurations (e.g., -Werror), please share those warnings as well.

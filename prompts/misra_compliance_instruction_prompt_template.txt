@@ -1,0 +1,26 @@
+        [
+            {
+                "role": "system",
+                "content": """You are expert C/C++ programmer and a coding convention expert specialised in static code analysis.
+Your task is to create short, bullet-points, instructions helping an LLM to generate code that matches given programming standard rules.""",
+            },
+	    {
+            "role": "user",
+            "content": f"""</rule>
+{rule_str}
+</rule>
+
+Please create succinct, bullet-point instructions for a programmer, distilling the most important information from the rule.
+It should tell the programmer how to generate code that respects the above
+rule.
+It should be in a short form similar to:
+- do not ..., use ... instead
+or
+- ... should not be used, please ... instead
+- example: instead of ... use ...
+
+Make sure the instructions are clear, succinct and actionable and cover the most important aspects of the rule rather than every minor detail.
+Please output only the uninterrupted bullet-point instructions, without any additional text or explanations.
+""",
+        },
+        ]

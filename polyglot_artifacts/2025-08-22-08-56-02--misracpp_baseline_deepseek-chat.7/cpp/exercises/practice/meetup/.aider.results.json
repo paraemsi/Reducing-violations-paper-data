@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-22-08-56-02--misracpp_baseline_deepseek-chat.7/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.021480020000000002,
+    "duration": 372.28244972229004,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 66446,
+    "completion_tokens": 5964,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f4fa58578d0c5b4d9f7b0694a14126229c39c6c1"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "2fbe1ce255cb0a4fc12a14667c55ba7d5cac78bc"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "694234e0c256e3b040a9fd1a0395ccb95e63fe2d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "723dd40aecbaecfd01bb828007f982591c89bbea"
+        ]
+    ]
+}

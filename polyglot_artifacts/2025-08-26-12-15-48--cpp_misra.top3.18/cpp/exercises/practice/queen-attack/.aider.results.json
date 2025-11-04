@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-26-12-15-48--cpp_misra.top3.18/cpp/exercises/practice/queen-attack",
+    "testcase": "queen-attack",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.35780199999999995,
+    "duration": 230.41579365730286,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 249857,
+    "completion_tokens": 6189,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "45fe1322dce63b33043d0ca320fd8ef4c8fbe3d5"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "3e5e06cad5f6a655817ad2e8b30c425d8e198822"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "00f861b93fa3e3b712356b7257301aa333537926"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "586a4859383e38de1f301069d4b70f1506f4254d"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "be7017f0a7b52dc1694aa7a68adb1d922d596302"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "29603a394c0afe2f4d5423d33ac53ba2c2727dbe"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "37f2bf35dd0990655a815321df32b728bfa7ccdb"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "e606dd7da37c9ccc48955bf7f53494a8e1c04f23"
+        ]
+    ]
+}

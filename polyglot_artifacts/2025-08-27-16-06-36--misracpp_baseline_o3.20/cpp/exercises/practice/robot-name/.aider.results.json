@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-08-27-16-06-36--misracpp_baseline_o3.20/cpp/exercises/practice/robot-name",
+    "testcase": "robot-name",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.06451,
+    "duration": 93.01475667953491,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 18419,
+    "completion_tokens": 4851,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "0c454b2c23bd57968b8484a26204377224faf2b3"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "174b6f29d4b98f60bdab2b0798f634d6d83b201d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a5fbb21ff00b51bde7bcfdd6a0cbd4b00c84768e"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "3e6eed1028d01739d745c48446e5cce746529564"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "0cfdb3b62e3c12b34c1c66bc57cadf325c561873"
+        ]
+    ]
+}

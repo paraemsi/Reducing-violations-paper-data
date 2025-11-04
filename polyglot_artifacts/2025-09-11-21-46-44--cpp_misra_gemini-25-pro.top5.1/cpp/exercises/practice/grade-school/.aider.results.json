@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.31695500000000004,
+    "duration": 235.42913341522217,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 9564,
+    "completion_tokens": 30500,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "896dae11f451199df8cb0837f828bf91082b4cb8"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "836ffd9eecc37df2f11ccc6e7bbaf50b7f42e9b3"
+        ]
+    ]
+}

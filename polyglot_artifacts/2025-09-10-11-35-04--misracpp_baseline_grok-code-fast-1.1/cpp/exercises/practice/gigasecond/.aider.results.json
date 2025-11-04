@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-10-11-35-04--misracpp_baseline_grok-code-fast-1.1/cpp/exercises/practice/gigasecond",
+    "testcase": "gigasecond",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0055394,
+    "duration": 23.88650679588318,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 21667,
+    "completion_tokens": 804,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "5ab927cbf350f6cff438fb5aea848751a50c007c"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "7718a7ae45fac92719fe406259d7a1cf36d0a886"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "8629b8dbada5eed7af7ec77ed979ad99b56ca09d"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "7c0dd4bae980f1bc9beaf585d52a02f12ee82bff"
+        ]
+    ]
+}

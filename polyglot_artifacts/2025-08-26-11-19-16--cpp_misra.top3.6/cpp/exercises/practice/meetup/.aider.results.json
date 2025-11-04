@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-26-11-19-16--cpp_misra.top3.6/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "gpt-4.1",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.286042,
+    "duration": 237.33109617233276,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 154793,
+    "completion_tokens": 7305,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ffe07bcd017f41e0f1549c6889dab22b9c365b0a"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "022747274cf20d601446fe99257fa075ff03e71c"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "bd830f397ff936b0734e7d39d48ab2d8cd0c0f89"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "8f3cb93d389570973aa334f86d2288413f3e675f"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "ec3a0790793a7f5157518a2061b2653a6659f08b"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "52fbcbf2f222ed12853c2934bff53e866e0a7557"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "7848d23ceeb13ab16c3db71a79b9aa75272bbdab"
+        ],
+        [
+            "dd5eb8c6e1e03320d0933ca63c0164ae9d2a0152",
+            "c238196797d80e0a8c41dad5505b44a9ccffb316"
+        ]
+    ]
+}

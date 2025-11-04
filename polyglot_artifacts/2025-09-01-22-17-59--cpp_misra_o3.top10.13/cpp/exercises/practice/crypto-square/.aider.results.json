@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-09-01-22-17-59--cpp_misra_o3.top10.13/cpp/exercises/practice/crypto-square",
+    "testcase": "crypto-square",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.174178,
+    "duration": 298.4970989227295,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 40317,
+    "completion_tokens": 16589,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "15855016b5ef37eb9cc3f77738bf1380edf25c15"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d5b084d8f880ed0058ae9f4ce74ba1ea083d52de"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "54162504e27eb2e9b4319b7b95906c2f5e88a264"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "da4e996abfe1ad5c0d22b8509620849184d200ca"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "3d7a67171fe34664ec2fb33ddf391639c7df2d81"
+        ]
+    ]
+}

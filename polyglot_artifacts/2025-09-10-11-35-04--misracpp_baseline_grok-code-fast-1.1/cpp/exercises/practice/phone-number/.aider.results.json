@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-10-11-35-04--misracpp_baseline_grok-code-fast-1.1/cpp/exercises/practice/phone-number",
+    "testcase": "phone-number",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0048660000000000005,
+    "duration": 24.18138813972473,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 19245,
+    "completion_tokens": 678,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "d523ec7c377985b4fe7e51c8f49630f36e18d05d"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "4f034ed3561d9b94d1937d18107ae017180c24b1"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "c1309f7ed2b2569ee4a8b8695ab607c3a8e6651d"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "003e804f9a7d94c275de0ea0d01c97be6a505261"
+        ]
+    ]
+}

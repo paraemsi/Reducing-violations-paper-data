@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-26-22-34-41--cpp_misra_deepseek-chat.20/cpp/exercises/practice/space-age",
+    "testcase": "space-age",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.009194550000000001,
+    "duration": 285.9612457752228,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 24455,
+    "completion_tokens": 5463,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "65373e4556d6285c65df242614e409648d37e8a5"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b782e4c72e1dd5da5cda0946a2397943241bbeff"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a5900f027eadfcc5e838bc373765a35a2382599d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "71fa91dbf453fb4c15d18d73475196f445d1e997"
+        ]
+    ]
+}

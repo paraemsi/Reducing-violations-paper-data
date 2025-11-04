@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-01-20-44-08--cpp_misra_o3.top10.2/cpp/exercises/practice/circular-buffer",
+    "testcase": "circular-buffer",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.310634,
+    "duration": 501.5013601779938,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 107069,
+    "completion_tokens": 24302,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "be75651a9716266f4de7d44e99059148466023d0"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "895e5ad6f0974a4a6bcf7c7eee626022cf462e7b"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "75033d26391f01dabf13cb16d6d4b9c4b3d48d22"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "65f79f36d68223e9855e972fb898fcf644177b34"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ca31ca1dc4b0f608c860956e70362b3b4f978713"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "48fa4534d466fb6bd58ad4750cd571fe2bea5d34"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "be48ee3edd8ebbe89dc27c7778d1f52f088b5a73"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "020c54441d2b78b89d43d59fa2564544b42002ea"
+        ]
+    ]
+}

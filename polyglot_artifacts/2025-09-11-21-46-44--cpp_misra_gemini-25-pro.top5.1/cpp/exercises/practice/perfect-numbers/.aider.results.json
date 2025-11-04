@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.29899000000000003,
+    "duration": 213.42459797859192,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 20922,
+    "completion_tokens": 27158,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "a41a9dbc345e54a07dba29170413e886c1a0366f"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "cc243063b2c3a754ff71150ee6fd61694d999220"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "856a3f5f9f5d5631b21eef893d2efd44f718f2e9"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "2f82a5d4991cbd71b391bbc71023fa1f928f500c"
+        ]
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-12-11-49-03--cpp_misra_grok-code-fast-1.top5.1/cpp/exercises/practice/knapsack",
+    "testcase": "knapsack",
+    "model": "xai/grok-code-fast-1-0825",
+    "edit_format": "whole",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0176832,
+    "duration": 61.057321310043335,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 71631,
+    "completion_tokens": 2238,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "9efdcdf8f761a40f9ba39a0daf38a2495d7a75ed"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "1664eeb6887fc142b2f138b6607a27afef875adf"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "c136ed1e1684f8866509e5128efb4d61d5200e9e"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "d1d9fdbad9b719006df8a534d4995ba45fc652ca"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "f4a46c32be5ad06e6161235428acc9fff5bf9411"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "32db5ce804e5967cdeb30d367c5b6df2b949d5b8"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "df4ee38d7c9b36bf745512a05a3fd6adab2b79fe"
+        ],
+        [
+            "5ff365dd35144573aa175fcf9498e0f4e11204a7",
+            "d1d9fdbad9b719006df8a534d4995ba45fc652ca"
+        ]
+    ]
+}

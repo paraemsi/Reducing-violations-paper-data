@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-31-19-15-14--cpp_misra_o3.top5.11/cpp/exercises/practice/knapsack",
+    "testcase": "knapsack",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.096746,
+    "duration": 93.57615494728088,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 24933,
+    "completion_tokens": 8116,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "fe4dfdf4d81e97e258ea3736f12cd35e5df89974"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "00856f99af96e3678633654dd28e1faac7e30469"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "8621935f5b2819a39149315b0f178cd9acb39b6e"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ac320e076a1cf8e7ffeeedcff4413fb58d1bd5ce"
+        ]
+    ]
+}

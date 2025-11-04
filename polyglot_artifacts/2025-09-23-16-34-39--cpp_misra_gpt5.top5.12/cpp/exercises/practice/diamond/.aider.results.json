@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-23-16-34-39--cpp_misra_gpt5.top5.12/cpp/exercises/practice/diamond",
+    "testcase": "diamond",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.23865000000000003,
+    "duration": 360.17649269104004,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 44840,
+    "completion_tokens": 21428,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "86be1421dff3b9ced4ae3130393ab666b18db0ce"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "26889f11b5fcafddd18e95823d03721edad871f2"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "a473f367800167ddc621c2376f50ace75ac41639"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "bff763a454e26f887cabf95d52a61c98040e0e70"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "dd4eec4d5b2fd1a3d42d499fd27c05263a2f9452"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "bcd9c54928d0be388c9e9e274e796e1f2082cff9"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "6a44ea0f2268ff78e16d9e5838afaa043210c056"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "92bd017d7df22275e33b7c295dfb1cf4143d659e"
+        ]
+    ]
+}

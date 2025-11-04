@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-01-21-54-51--cpp_misra_o3.top10.10/cpp/exercises/practice/queen-attack",
+    "testcase": "queen-attack",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.274798,
+    "duration": 150.5495617389679,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 115407,
+    "completion_tokens": 8282,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "478c3504d5a99a279255d250af804517123318e3"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "5e077b13973cda07cc6a5644d07355d458c730d0"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "3403dd6cc98491f19fc3febe61e565c4785b9b27"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "8c3af7d4814eefc2060c0e7c30ba1bd95e8ca117"
+        ]
+    ]
+}

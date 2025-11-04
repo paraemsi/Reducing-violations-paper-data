@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.7094828125,
+    "duration": 477.9716193675995,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 74967,
+    "completion_tokens": 61196,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "ed248e6f8e12328c15cc91d37473326c6293a8b7"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "6575e2f2220ef14adb26af580b5e2675706f4086"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "2c70462a595af90dec37229062554663af7778b8"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "5585fa303e56f07a74f0b76959266617503e38bb"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "3b67632bdc875d0830b08db015ba5ed7516f6944"
+        ]
+    ]
+}

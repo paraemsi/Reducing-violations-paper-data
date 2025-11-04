@@ -1,0 +1,39 @@
+{
+    "testdir": "/benchmarks/2025-08-22-11-09-06--misracpp_baseline_deepseek-chat.13/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.01251695,
+    "duration": 403.7869703769684,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 19815,
+    "completion_tokens": 8319,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ec1a830dce800837cf081b3c5f28330ddc466731"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "15f6d8106b9cc57a1d31b51cfacbfd3add0bf7d8"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f61c06a3b0dc8c04354556c3498afb3d4fd73f27"
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/space-age",
+    "testcase": "space-age",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.37084468750000005,
+    "duration": 253.25098538398743,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 20930,
+    "completion_tokens": 34342,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "b09d168f764c61ac173376a79bbd67a23d931626"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "60ea4c1c9e3f59955f2e46bee5507d4715cd354b"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "4695f7812bc549ea79689fe8ff339902a6c22a06"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "08b3caabecbf1942f98d5670bc41c12348993eb0"
+        ]
+    ]
+}

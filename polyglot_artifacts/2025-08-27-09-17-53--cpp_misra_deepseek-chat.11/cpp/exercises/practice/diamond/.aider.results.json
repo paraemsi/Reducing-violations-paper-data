@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-27-09-17-53--cpp_misra_deepseek-chat.11/cpp/exercises/practice/diamond",
+    "testcase": "diamond",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.00898113,
+    "duration": 296.9169898033142,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 21459,
+    "completion_tokens": 4992,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0a94c9e1a613823a896fe29daf4775b00d751cc9"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "e5529f8384f0a489d6b572aaef57bc581b181c27"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "9f0d10f5c908f81aa41ec1204f230025abd6b8ed"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "37e8336e4ecf83e2f1d65bc8f8e183f207c29c9f"
+        ]
+    ]
+}

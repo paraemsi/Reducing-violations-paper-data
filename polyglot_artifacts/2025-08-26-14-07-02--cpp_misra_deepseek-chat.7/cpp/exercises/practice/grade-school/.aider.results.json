@@ -1,0 +1,38 @@
+{
+    "testdir": "/benchmarks/2025-08-26-14-07-02--cpp_misra_deepseek-chat.7/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.006559290000000001,
+    "duration": 248.23348569869995,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 14867,
+    "completion_tokens": 4164,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "da1a8912fba63a30c1d4481a3ae863e14e7f7be3"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "3ac6ebacbcaf7cd3c205c40676ece6b442c4b03e"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a317e2d0faa292c79597e88e209c18f013d19b24"
+        ]
+    ]
+}

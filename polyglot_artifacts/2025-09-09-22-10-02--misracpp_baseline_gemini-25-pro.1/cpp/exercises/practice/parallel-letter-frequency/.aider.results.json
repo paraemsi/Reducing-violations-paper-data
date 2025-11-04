@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/parallel-letter-frequency",
+    "testcase": "parallel-letter-frequency",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.30178875,
+    "duration": 216.10835194587708,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 17295,
+    "completion_tokens": 28017,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "67de2c0bcf279b3f410e57e40c5c49f34a5cfff8"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "1d5f371fe62b1f306666b23514851464f3b9ba0c"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "da93ca40a0eb5e7307dcacaa204b4537dd166c0d"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "ec944c1e055dbf70eda5a8f6efdf0494e65d21f1"
+        ]
+    ]
+}

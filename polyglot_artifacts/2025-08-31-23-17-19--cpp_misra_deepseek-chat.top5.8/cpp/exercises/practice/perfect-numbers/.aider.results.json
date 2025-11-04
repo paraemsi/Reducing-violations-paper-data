@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-08-31-23-17-19--cpp_misra_deepseek-chat.top5.8/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0119605,
+    "duration": 290.0786671638489,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 42530,
+    "completion_tokens": 6450,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "992c99d02ffe03afc112e2a705b966fc8ce7d17c"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "3afa777daf8cc731b73d238a5f8acb6b8c5de7e8"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "71052cf1bd1d2dda3ade7f58891a0fec0a0dfdea"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "6d0fe8122add2c33b70feefcd79aab1e732fa721"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "77e6d8a62e9085dba9536f48db5649ca9f71fb49"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "fd986fdac9112d3061955139e644e54fe0c227be"
+        ]
+    ]
+}

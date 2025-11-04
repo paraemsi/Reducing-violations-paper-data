@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-19-16-30-38--misracpp_baseline_gpt5.7/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.08573050000000002,
+    "duration": 121.42223072052002,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 14546,
+    "completion_tokens": 7590,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "18d88d3f1b02f85d7d79bf9fe84cb676a470cc5d"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "4c6122005dbdb9d5b090cfd2b7587cb274a1a36d"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "33e0d11d0735050659ac7bc50b07463f7b90cd3f"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "70110961bc8a402afb56af788ea2f316fe62a84d"
+        ]
+    ]
+}

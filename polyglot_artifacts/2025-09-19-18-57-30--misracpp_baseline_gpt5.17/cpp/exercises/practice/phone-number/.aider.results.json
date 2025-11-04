@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-19-18-57-30--misracpp_baseline_gpt5.17/cpp/exercises/practice/phone-number",
+    "testcase": "phone-number",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.11709025,
+    "duration": 177.86477208137512,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 17021,
+    "completion_tokens": 10287,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "ab4c44808a4b44137e58a5970ccd1989e55ac01e"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "a93a7fae211b477f456a7782c3e46de15ee74851"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "e82ef2e0d3b728fe51e24dd6040232cdb8b2cbae"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "858425a928be8f5fa72d441ac8c1997bb1fe2b99"
+        ]
+    ]
+}

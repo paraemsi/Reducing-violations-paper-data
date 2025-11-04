@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/complex-numbers",
+    "testcase": "complex-numbers",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.4901559375,
+    "duration": 336.2757730484009,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 47471,
+    "completion_tokens": 42703,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "792c949efe2df9c0008fb8050d136ee649e325bd"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "576b7a0cf661f7a41e2140ca8bacf38b937ffd99"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "220624aaa80d32fe5c1ab34fae7581ab59b995bc"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "f9e024fb36465bf91f0f09ed24ac48a9082b961b"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "bd291c3231519e38d2182acea16b2ae26309f2ef"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "a62f830e60a849fab7ddbdc52541f1d7071dda95"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "560f27f3c3c12d968385ad36f7ef01df46a5a636"
+        ]
+    ]
+}

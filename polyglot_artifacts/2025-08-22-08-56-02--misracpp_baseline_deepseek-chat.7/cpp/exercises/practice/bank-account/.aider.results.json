@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-08-22-08-56-02--misracpp_baseline_deepseek-chat.7/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.009176070000000001,
+    "duration": 302.2968213558197,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 27891,
+    "completion_tokens": 5045,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c69aa755991d8faecb60991db9399cd0b4d6d82d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "e1556afeb7c676c9e2005a0235b7610c5469a7b7"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "96598344756dce92645fe4ea16bf4d3b72423c19"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ed1e820f0de1ef2c5ac61ed4147a451f195b6d65"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "3c700ab800044cd15f9a6f016ad1ca415fe4a2da"
+        ]
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "testdir": "/benchmarks/2025-08-26-14-35-03--cpp_misra_deepseek-chat.9/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0914579099999622,
+    "duration": 5865.427699327469,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 4,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 2,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 338733,
+    "completion_tokens": 0,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "afaf2d6b3b2b07cdda7f7fadcee6b7e6fd23f4a0"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "69d35ed5e2b93df9c6924d74995394237858e87f"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "96a13d89d557ff99bba84e710970701fe5880a23"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "30f9bc68474e3f3d37419bf1454024912252bb57"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0828dfdc2e5403b91affe0a0251e3591e1a68a22"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ba7b9998228b9b724e21b3e6bae0f3a5cb360658"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a170e3adc81bebe5cf81d8b7e125968fea4b3b2e"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "2ca3a16617a66949e38b898543bde6dd9e6b3a79"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "9b0696e02f00a29a556e4491fad118d48c616925"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "53e9be592a91d61d21b294593595541d08ef1703"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "77db7a57f11841d8873ec3be99fcca3a1bb51211"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "665f58a647739414f80a0dc229da03c21733437f"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "e5558608f09fb4b6c043a52d9b7fd3f6795db5dc"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0c2e6f4b25e3d89965dcb60358fea159d019442e"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "4b0269c5988f43bb05967ed7c385b871edbda23b"
+        ]
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-01-23-30-16--cpp_misra_o3.top10.20/cpp/exercises/practice/kindergarten-garden",
+    "testcase": "kindergarten-garden",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.17066199999999998,
+    "duration": 202.52548503875732,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 60731,
+    "completion_tokens": 8454,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c186b4ec4fb7e4ef5e2c82c1b2508e4c089d168d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "20e08c205066d421533153a7fc4363ec3e270db9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "26e89733950042f2452b4e1079cc3fb10336b5db"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "81dd69635d2c867a7a58dcfb69c82c6e6e16d5a9"
+        ]
+    ]
+}

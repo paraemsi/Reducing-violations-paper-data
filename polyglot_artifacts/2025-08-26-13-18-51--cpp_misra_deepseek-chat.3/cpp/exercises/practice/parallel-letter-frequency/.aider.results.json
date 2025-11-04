@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-08-26-13-18-51--cpp_misra_deepseek-chat.3/cpp/exercises/practice/parallel-letter-frequency",
+    "testcase": "parallel-letter-frequency",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.012539820000000002,
+    "duration": 463.7262952327728,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 2,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 44136,
+    "completion_tokens": 7013,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "56fa8d1f6e8745c2580176a431168e7561005c44"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f1ae9d017e5c15649637422215df2ded7388cb9f"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "45990f77894025a51aee74b78aaa8fa4ed80f1c3"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "62a1766987036f49bee6bd1027605354d98b2b1f"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0b2aa2bc5f47f518fc054bc49ad2fce794aef075"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "793a36a30280903798c4c9609153b8d07e19d89a"
+        ]
+    ]
+}

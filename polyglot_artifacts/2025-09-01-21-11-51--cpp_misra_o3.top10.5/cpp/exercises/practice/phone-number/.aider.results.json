@@ -1,0 +1,39 @@
+{
+    "testdir": "/benchmarks/2025-09-01-21-11-51--cpp_misra_o3.top10.5/cpp/exercises/practice/phone-number",
+    "testcase": "phone-number",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.067146,
+    "duration": 107.64351034164429,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 17833,
+    "completion_tokens": 5639,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "da24abb1005740e788b9438436fb8afdeb09a221"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "49f0a26fefeb4835a5e5de99be4a71309e51a24f"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "e7be1db7f15aa6f6fcbcceb550ea0f7eaadc6d97"
+        ]
+    ]
+}

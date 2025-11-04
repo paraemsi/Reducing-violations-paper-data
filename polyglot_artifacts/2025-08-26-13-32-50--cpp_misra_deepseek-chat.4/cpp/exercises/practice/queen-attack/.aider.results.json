@@ -1,0 +1,38 @@
+{
+    "testdir": "/benchmarks/2025-08-26-13-32-50--cpp_misra_deepseek-chat.4/cpp/exercises/practice/queen-attack",
+    "testcase": "queen-attack",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.0063536,
+    "duration": 221.13527154922485,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 15720,
+    "completion_tokens": 3884,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b8ae14a8241468a9f02c9440e6995f50e5cd8405"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f45bbebd1ffdb62e08f37f3805fbe5063cabd232"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0b9b7ee97205d7ddd3ca63c632a020da4904e31f"
+        ]
+    ]
+}

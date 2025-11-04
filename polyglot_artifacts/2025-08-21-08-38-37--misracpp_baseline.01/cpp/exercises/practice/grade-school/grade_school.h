@@ -1,0 +1,34 @@
+#if !defined(GRADE_SCHOOL_H)
+#define GRADE_SCHOOL_H
+
+#include <string>
+#include <vector>
+#include <map>
+#include <set>
+
+namespace grade_school {
+
+class school {
+public:
+    // Add a student to a grade. Returns true if added, false if already present.
+    bool add(const std::string& name, int grade);
+
+    // Get a sorted list of students in a grade.
+    std::vector<std::string> grade(int) const;
+
+    // Get a sorted mapping of all grades to their students.
+    std::map<int, std::vector<std::string> > grades() const;
+
+    // Get a sorted roster of all students in all grades.
+    std::vector<std::string> roster() const;
+
+private:
+    // Map from grade to set of student names (set keeps names unique and sorted)
+    std::map<int, std::set<std::string> > students_by_grade_;
+    // Map from student name to grade (to prevent duplicate students in different grades)
+    std::map<std::string, int> student_to_grade_;
+};
+
+}  // namespace grade_school
+
+#endif // GRADE_SCHOOL_H

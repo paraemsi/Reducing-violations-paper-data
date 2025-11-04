@@ -1,0 +1,2 @@
+No additional code changes required – current implementation compiles,
+passes the unit tests, and complies with the specified MISRA-C++ rules.

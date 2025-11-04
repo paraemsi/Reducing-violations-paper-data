@@ -1,0 +1,38 @@
+{
+    "testdir": "/benchmarks/2025-08-22-08-20-05--misracpp_baseline_deepseek-chat.4/cpp/exercises/practice/linked-list",
+    "testcase": "linked-list",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.00609711,
+    "duration": 202.59342122077942,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 15703,
+    "completion_tokens": 3399,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "cb12645809aff2abe7d3d06fcf479b146f7599d5"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "bf4690dfc3e7b162de38a38ce9012c8fcf34faa2"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "efc1261ee50601a4b8e3bb0a54d4b5db817c8a45"
+        ]
+    ]
+}

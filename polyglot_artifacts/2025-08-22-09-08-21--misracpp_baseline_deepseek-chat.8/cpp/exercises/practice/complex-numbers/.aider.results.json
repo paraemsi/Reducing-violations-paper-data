@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-08-22-09-08-21--misracpp_baseline_deepseek-chat.8/cpp/exercises/practice/complex-numbers",
+    "testcase": "complex-numbers",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.009904209999999998,
+    "duration": 281.3204846382141,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 33863,
+    "completion_tokens": 4532,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "b22ba1089d1bc3b0bc8a0d54b70839defc13eec0"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "5327f48b862d2495c46ab482b7b5d5ef1c975c77"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "dc32927098fa095f59216903507d4c246c051323"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "354739a1eb275d07010c6199d9179a5827e36d9d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c41ce543029e6cfe8ac1b08bdc3e47af3bbfea0c"
+        ]
+    ]
+}

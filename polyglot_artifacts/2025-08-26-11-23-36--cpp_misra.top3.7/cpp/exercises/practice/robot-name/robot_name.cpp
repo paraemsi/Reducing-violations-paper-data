@@ -1,0 +1,92 @@
+#include "robot_name.h"
+#include <random>
+#include <mutex>
+#include <array>
+#include <algorithm>
+
+namespace robot_name {
+
+::std::unordered_set<::std::string> robot::s_used_names;
+
+namespace {
+    // Use a function-local static to ensure thread-safe initialization
+    ::std::mt19937& get_rng() {
+        static ::std::random_device rd;
+        static ::std::mt19937 rng(rd());
+        return rng;
+    }
+
+    // Mutex to protect s_used_names
+    ::std::mutex& get_mutex() {
+        static ::std::mutex mtx;
+        return mtx;
+    }
+}
+
+robot::robot()
+    : m_name("")
+{
+}
+
+robot::~robot()
+{
+    if (!m_name.empty()) {
+        ::std::lock_guard<::std::mutex> lock(get_mutex());
+        (void)s_used_names.erase(m_name);
+    }
+}
+
+::std::string robot::name(void)
+{
+    if (m_name.empty()) {
+        m_name = generate_unique_name();
+    }
+    return m_name;
+}
+
+void robot::reset(void)
+{
+    if (!m_name.empty()) {
+        ::std::lock_guard<::std::mutex> lock(get_mutex());
+        (void)s_used_names.erase(m_name);
+        m_name.clear();
+    }
+}
+
+::std::string robot::generate_unique_name(void)
+{
+    ::std::string candidate;
+    ::std::lock_guard<::std::mutex> lock(get_mutex());
+    do {
+        candidate = generate_name_candidate();
+    } while (s_used_names.find(candidate) != s_used_names.end());
+    (void)s_used_names.insert(candidate);
+    return candidate;
+}
+
+::std::string robot::generate_name_candidate(void)
+{
+    // 2 uppercase letters + 3 digits
+    static constexpr ::std::array<char, 26> letters = {
+        'A','B','C','D','E','F','G','H','I','J','K','L','M',
+        'N','O','P','Q','R','S','T','U','V','W','X','Y','Z'
+    };
+    static constexpr ::std::array<char, 10> digits = {
+        '0','1','2','3','4','5','6','7','8','9'
+    };
+
+    ::std::mt19937& rng = get_rng();
+    ::std::uniform_int_distribution<::std::uint8_t> letter_dist(0U, 25U);
+    ::std::uniform_int_distribution<::std::uint8_t> digit_dist(0U, 9U);
+
+    ::std::string result;
+    result += letters[static_cast<::std::size_t>(letter_dist(rng))];
+    result += letters[static_cast<::std::size_t>(letter_dist(rng))];
+    result += digits[static_cast<::std::size_t>(digit_dist(rng))];
+    result += digits[static_cast<::std::size_t>(digit_dist(rng))];
+    result += digits[static_cast<::std::size_t>(digit_dist(rng))];
+
+    return result;
+}
+
+}  // namespace robot_name

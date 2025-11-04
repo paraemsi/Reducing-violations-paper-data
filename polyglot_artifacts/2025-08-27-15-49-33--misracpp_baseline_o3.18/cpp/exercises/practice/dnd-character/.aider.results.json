@@ -1,0 +1,39 @@
+{
+    "testdir": "/benchmarks/2025-08-27-15-49-33--misracpp_baseline_o3.18/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.062462,
+    "duration": 85.92052125930786,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 12423,
+    "completion_tokens": 5614,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "f3e83d18ca1c372922c2041d586c4dccb910be66"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "7f6b4729336eb6a8f9680961351a8f6335699473"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "e379fb7e202aea83a41976dbb33fb79cd699dbdc"
+        ]
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-09-01-20-53-01--cpp_misra_o3.top10.3/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.176556,
+    "duration": 279.8234269618988,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 50418,
+    "completion_tokens": 15009,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "65c3032cd80ff471edd502464e83a317a1e4533f"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "50a9eb469f97fdce9c2318cec46f6d117dea0670"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "721b75fcf8f2c87c73d6176e3b1c6bd3326d10f0"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d142e771b397fae87b544faf199bbcc70a4d32af"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "33c5fa0c34e671e5e8cacf404719b1969d9f328a"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2f55f97df6eaf79f5d8b90a5c0ed196ea1a1dd64"
+        ]
+    ]
+}

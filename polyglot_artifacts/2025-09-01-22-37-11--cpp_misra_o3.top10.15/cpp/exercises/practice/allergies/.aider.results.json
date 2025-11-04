@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-01-22-37-11--cpp_misra_o3.top10.15/cpp/exercises/practice/allergies",
+    "testcase": "allergies",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.70088,
+    "duration": 243.7997283935547,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 2,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 1,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 301996,
+    "completion_tokens": 14631,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "b0dfd51e63e96dd736b51142c793b5e93e6b2445"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "130bd4db02c172a996d26d1f507b8a551fcdccd2"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "19ca53780f3db8f88d2b20285bc22515839e0a1a"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a779e9e913c58d5ff3ceeca3023ed24f9021b163"
+        ]
+    ]
+}

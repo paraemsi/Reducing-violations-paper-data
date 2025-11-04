@@ -1,0 +1,87 @@
+{
+    "testdir": "/benchmarks/2025-09-01-01-51-19--cpp_misra_deepseek-chat.top5.16/cpp/exercises/practice/robot-name",
+    "testcase": "robot-name",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0701827199999622,
+    "duration": 5161.735018014908,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 3,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 2,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 259936,
+    "completion_tokens": 0,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a11bf032b701ce64e1072d6aec21a427a98580bc"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "bba9bc32ac838235814134d8c5b669e7e3b7d7aa"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "79113d23acff8a03bde8856405930a4d26664af2"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "9b29692fe3d14aba2cdbd5d8b937dfb25a3b52f2"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ee62583df8a15fcacd6720b50fdd0563144754ac"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0645e928e05e7a4ced8d4deab9becd91c5d0a485"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ec69810c3ed3dff6cd0e2d5a7af583e96b60a555"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "22b64918dc96b59ae3d6f3663f00eea2116f2599"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "6e8629e2cc4baa5bf15d49cf496691450fcc641d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c16c2d3772f35d29e1e867173615becc9cec58a8"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "d8ee2bdfc72532d75388a6487667cd9668806548"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "13758b6bbc643b8c633f25f4590585fc0e2e25be"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "5ad3fa137c368c93d8fa2f8fc1e780a8a354d747"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "89adc73c74fbc19015b10aa88d9f61f833e1bad0"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "8235a10c59ffc8e7301cdb15f920b2d45da27d5a"
+        ]
+    ]
+}

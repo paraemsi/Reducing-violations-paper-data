@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-08-31-18-27-14--cpp_misra_o3.top5.4/cpp/exercises/practice/phone-number",
+    "testcase": "phone-number",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.200768,
+    "duration": 268.2529225349426,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 43312,
+    "completion_tokens": 18540,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2dbdd2186fe083fe6ca012d5a709a89d25956316"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "9128e310e580a853f6103fdbb7bb0cc394f138b4"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "93254e12553811e0904b2041853fed2520fe62f3"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "11c014671bf3612a50f9d1a215378e8387f6aaf7"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "27191e25306491a87e4f7bf4d66c5ae0042ffab4"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "f3f5e41c9b673060d4540dd115b155dd9b351ff5"
+        ]
+    ]
+}

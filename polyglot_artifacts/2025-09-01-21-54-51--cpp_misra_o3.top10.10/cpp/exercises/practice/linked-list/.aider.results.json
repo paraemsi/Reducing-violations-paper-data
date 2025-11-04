@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-01-21-54-51--cpp_misra_o3.top10.10/cpp/exercises/practice/linked-list",
+    "testcase": "linked-list",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.07074,
+    "duration": 89.38096928596497,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 28006,
+    "completion_tokens": 4985,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ea197c5488a5c40d6447ba7e791719c763b82406"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "0a26914367553559c68144a674a3b998f99cc24f"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2cd2f507e84954744bdd4f4eaadfa7c896822e09"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "f8c2fb6668a154cee14e6279e4ee5521a67cf4a0"
+        ]
+    ]
+}

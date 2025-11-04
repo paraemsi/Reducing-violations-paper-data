@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-08-31-19-28-17--cpp_misra_o3.top5.13/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.124192,
+    "duration": 147.32413744926453,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 30688,
+    "completion_tokens": 11500,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "aba0bf6337bbb5292689179b151e93c00e4f56fd"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "fc4f09056dac1cbb2e17e430c1670e429883d2f6"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d75e0b54a10f5a6d33a13193991b809bf3e2b389"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a1e4297f417b8e12479af222e8f80ec37b86408d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "72f5432d9e40a92bc11f9536ac1877119a513e67"
+        ]
+    ]
+}

@@ -1,0 +1,1 @@
+error: no match for 'operator==' (operand types are 'const std::vector<std::vector<unsigned int> >' and 'spiral_matrix::Matrix' {aka 'std::vector<std::vector<int> >'})

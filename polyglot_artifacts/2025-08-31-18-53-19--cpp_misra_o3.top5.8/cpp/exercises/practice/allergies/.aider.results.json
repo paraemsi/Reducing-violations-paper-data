@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-31-18-53-19--cpp_misra_o3.top5.8/cpp/exercises/practice/allergies",
+    "testcase": "allergies",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.29558199999999996,
+    "duration": 263.3463318347931,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 111035,
+    "completion_tokens": 16605,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "aa5687b138b34182a0603126a8fffcfb605dddb3"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "72b89f82de679f9181f5e13a071cc4a7de6bf667"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "91da9f15d3a2587ddaf2b567855b0197a3a31ec2"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "f72d2297ebea8346405b8cb6a282792a4ca39d4c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a9b0b2c3599c5d4e1d9b560da4c747e749790b85"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "e45e14d2330e11564b50495c03da4d56b70026b3"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "082501c99555984be3d18b7231b9bac40a67f940"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "b5e8956b18a362feae7a8581eb01637a3d3d2c13"
+        ]
+    ]
+}

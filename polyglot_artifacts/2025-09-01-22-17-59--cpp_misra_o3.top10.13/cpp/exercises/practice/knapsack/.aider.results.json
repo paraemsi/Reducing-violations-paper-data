@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-09-01-22-17-59--cpp_misra_o3.top10.13/cpp/exercises/practice/knapsack",
+    "testcase": "knapsack",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.14083800000000002,
+    "duration": 202.0347192287445,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 42007,
+    "completion_tokens": 12743,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "33b0daff0a60b8ad68c0f26e652bf76d6d2e7a82"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "efb4d2fba024438bd8091d6707ffcc3420d6b3b8"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ac3f20b280bc1d16995fbc86110c4ff1669b735e"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "6049b4d5191872357f293e6502d1f9ef7a17e4d9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "65362161344121555a79c92908811e3efd6c6a9b"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "9114f1675f84ec4a56be1312125223399a44b9f2"
+        ]
+    ]
+}

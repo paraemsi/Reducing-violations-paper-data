@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 1.0516175,
+    "duration": 607.1673645973206,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 298854,
+    "completion_tokens": 67805,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "0856a6ac4f9402b9571bf2fc76327d1bc46e7b71"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "eb27ca4b6cf887d4a4c0c11785ea86ea78533d6b"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "7e58efea1eedadee736f36032e2cbd1ef14eac99"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "e01085d7ec6111762a4c237961723043c30577a7"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "7d1b7ae270d7514554a9b8c22fbc7041210947fe"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "6aff9bd2e66055c6cb44871d60624678c4d54a97"
+        ]
+    ]
+}

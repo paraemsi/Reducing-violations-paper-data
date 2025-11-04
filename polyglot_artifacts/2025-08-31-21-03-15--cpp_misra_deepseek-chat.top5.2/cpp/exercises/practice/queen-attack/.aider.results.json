@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-31-21-03-15--cpp_misra_deepseek-chat.top5.2/cpp/exercises/practice/queen-attack",
+    "testcase": "queen-attack",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.05932344,
+    "duration": 746.7935998439789,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 7,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 276882,
+    "completion_tokens": 13151,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0b9095999b8e5329981f69f09b8c1bff082e17df"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "0325a33936253c275c1f2b11aad121b3b27791ab"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "32604f64ada624f0b06a90f48f90e3ba0c06a8c0"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c1dce0f8d5f373f78f3198de37f45c68a6faac8a"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "11d9aed4d7c8c6aa6b21110d98ee1e9141a5d40a"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "115ab400817f4651525d1bf847e32877239f7053"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "73c81eccd75a2961c08505656197a5a0ada40006"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "3aead7b694fef2fe6b1ef39361262802314e4877"
+        ]
+    ]
+}

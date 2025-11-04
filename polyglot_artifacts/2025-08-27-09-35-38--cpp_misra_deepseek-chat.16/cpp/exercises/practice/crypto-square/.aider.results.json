@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-27-09-35-38--cpp_misra_deepseek-chat.16/cpp/exercises/practice/crypto-square",
+    "testcase": "crypto-square",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0095652,
+    "duration": 286.8619475364685,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 29010,
+    "completion_tokens": 4519,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "23e80b7c033de33f171dc5a58e6be09f70518bce"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "60f2be49d0adad09ee9041b2a9e512635f06707f"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "74e4efafa1fcb7f387c24587f9699536a0dd374e"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ec075f586d4fb4a5bfebdb18af30ad3470c769fc"
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-11-21-46-44--cpp_misra_gemini-25-pro.top5.1/cpp/exercises/practice/linked-list",
+    "testcase": "linked-list",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.3505728125,
+    "duration": 245.9065878391266,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 32813,
+    "completion_tokens": 30702,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "d446c0f4d76aeba60b6136d0a4028f6c69954eed"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "9a3ff676ef6a3afbc9eedaad6ee400129c7a1f85"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "9dd6656d070be21785b4ceff5f3b5f93ba6805fd"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "5cde9ab0e94dd32b789393f2ad44a13124df4d21"
+        ]
+    ]
+}

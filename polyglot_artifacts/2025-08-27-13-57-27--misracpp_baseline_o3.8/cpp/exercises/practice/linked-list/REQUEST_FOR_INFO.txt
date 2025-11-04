@@ -1,0 +1,4 @@
+Please provide the exact compiler or test failure messages you’re seeing
+so I can pinpoint and correct the issue(s) in `linked_list.h` (or any
+other file).  The highlighted lines you pasted look syntactically
+correct, so additional context will help identify the real problem.

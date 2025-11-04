@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/linked-list",
+    "testcase": "linked-list",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.398405,
+    "duration": 282.01541805267334,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 24424,
+    "completion_tokens": 36661,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "2e833083630656a42274e5807e62fe6a1aebd898"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "7b7d66cd0841ceb4d6c0945e7e213a32170316f5"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "cef2babe9f50e6c1b9a663de05abb69302a6a1b9"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "65efe664accbf05d1da89b3a20301a302b8a64f8"
+        ]
+    ]
+}

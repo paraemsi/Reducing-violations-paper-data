@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-08-27-16-06-36--misracpp_baseline_o3.20/cpp/exercises/practice/linked-list",
+    "testcase": "linked-list",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.033847999999999996,
+    "duration": 53.82514309883118,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 7740,
+    "completion_tokens": 2728,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "7e8480d4ea8c4cc698ad54cd92f8d3d2006ec779"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "f61121714528f04775ad83e2cb1565d810e2f3a4"
+        ]
+    ]
+}

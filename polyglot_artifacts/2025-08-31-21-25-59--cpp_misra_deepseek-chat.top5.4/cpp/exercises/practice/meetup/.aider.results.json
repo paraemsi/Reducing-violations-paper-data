@@ -1,0 +1,87 @@
+{
+    "testdir": "/benchmarks/2025-08-31-21-25-59--cpp_misra_deepseek-chat.top5.4/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0481692799999811,
+    "duration": 4448.352834939957,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 1,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 168604,
+    "completion_tokens": 4826,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "6b01ca7337e802fe90083a0ab019ba59f54e21b5"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f61ec411b2489798cdc5c517f61ff68afcafebf1"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "a3e0999c9bfd44fb0010e43d1471170b1a28a657"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "e266756cd2d4cebdfad0fd10d137f638ebbb6c7a"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "d7288a62ff69b492ca994c34a94d59591ab699ba"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "95e45c0cd32f94fd8f404fa54b77f10f488e2e8d"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "875a65eecf7aeb821e53b73a00e352eb0939e4dc"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c61e4b6b4334e70cda63a3dbca00621bb12381cf"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "4b38022b98f99fda5b9567aa99c5be82405ec7a9"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "e726541dbaeeea2908ad6947ca2e0f3bb4ea954c"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "9f28c028db3e286fd8d5235aee5cb369e73d9b95"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f12e5d1244ae4ce5c38964bc2ebaaf8e3189c8e4"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "9ffdfa81628f4780e96a33b28bdfe46eab8bb18e"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "722a028e8f15711b40fa26096259154ac3d0f21e"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "616d1c42d5e3e02221bb053af066752de903d1e1"
+        ]
+    ]
+}

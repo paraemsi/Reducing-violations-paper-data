@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-08-31-19-56-44--cpp_misra_o3.top5.18/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.07979,
+    "duration": 97.60644221305847,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 20311,
+    "completion_tokens": 7032,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d78cf204c396208ee7084ddcdd5542e625bfab8c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ec04740602a9d6f7cadc761df9d4c03ce01cad8d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "9227b1774af8c078b4a4f13b2a27713b8542a47c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "386081f7ec6504595f23258efe0c957acbeb2b25"
+        ]
+    ]
+}

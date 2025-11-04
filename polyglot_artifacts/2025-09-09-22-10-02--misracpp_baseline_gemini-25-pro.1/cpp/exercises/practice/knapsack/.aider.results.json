@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/knapsack",
+    "testcase": "knapsack",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.6243390625,
+    "duration": 443.9560480117798,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 5,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 63597,
+    "completion_tokens": 54357,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "b4bcef7199824c97c9b9d79eee28ff1316f9669e"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "9b1b89a6a073835c1e84d4b6f658a79a730a0620"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "6a16de979e054123f0e67d2345aefec327c4d2a0"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "4b4633103cfaabd22d07e28c8d5d484db22d96f0"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "7822eac433e88fd577d09a7c5b9b645f09a35cb4"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "7787de850e88fc7cf246a9152ac113df0ed06514"
+        ]
+    ]
+}

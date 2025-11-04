@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-08-27-09-17-53--cpp_misra_deepseek-chat.11/cpp/exercises/practice/kindergarten-garden",
+    "testcase": "kindergarten-garden",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0192712,
+    "duration": 452.91488671302795,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 57700,
+    "completion_tokens": 7022,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "f36996e9e47e44149fc7bedba6359eeedc14b648"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "262e1d2fc9aebdce1eb95f9402da4351d22197a2"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "7504c4312ff17dbbcd50d152a7caf292649fd4ac"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "73c99860f9a0238b9f5be360778cd8c141e653c0"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "c1dcd2d1bd15a6acd21d1fe29196f0bc081def01"
+        ]
+    ]
+}

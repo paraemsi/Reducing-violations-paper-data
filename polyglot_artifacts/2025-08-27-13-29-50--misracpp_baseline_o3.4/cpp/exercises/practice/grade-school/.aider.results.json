@@ -1,0 +1,34 @@
+{
+    "testdir": "/benchmarks/2025-08-27-13-29-50--misracpp_baseline_o3.4/cpp/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.029023999999999998,
+    "duration": 31.70955181121826,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 5756,
+    "completion_tokens": 2621,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "e0509f13af73fba61aa76866c073fe931db1d547"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a9d8133dc8ada8a8592b510be0c7e2f02c0b73aa"
+        ]
+    ]
+}

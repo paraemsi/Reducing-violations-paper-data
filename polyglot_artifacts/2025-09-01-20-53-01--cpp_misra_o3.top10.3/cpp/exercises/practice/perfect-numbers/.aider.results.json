@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-09-01-20-53-01--cpp_misra_o3.top10.3/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.194492,
+    "duration": 297.42268323898315,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 44082,
+    "completion_tokens": 17899,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "77ac22105d0ea33f783b465e14c4b47476ccb0a9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "65aab4e1723ad425c4af0ddd77c27e697f74910d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c8c2e0d07b0b492e6cae0b5411a2ca88c8ef1813"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "59820e77bf52a050cadda328474dfc4f745e395c"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "bacec8e546ba5c0c0159c1147f4b44695e1952a6"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2769b35faebc90e8a44bf1af030f9148e16ebb89"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "de7336701e49bceeab251c5e08fd27444c697fa6"
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-19-15-47-30--misracpp_baseline_gpt5.4/cpp/exercises/practice/perfect-numbers",
+    "testcase": "perfect-numbers",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.1093305,
+    "duration": 174.2524790763855,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 12994,
+    "completion_tokens": 10072,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "9c2e0a7706155927842aed0bd8d3804a80b34beb"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "fa8a3cea269b8033a543d3bf9f61bd3fd86ea39a"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "5ecada0689b6676abeae3cf505b2f8c164a1bf78"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "a4b4ced075ecbce54a941f300dd4b5dad759a346"
+        ]
+    ]
+}

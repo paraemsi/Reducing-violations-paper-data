@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-09-01-23-17-38--cpp_misra_o3.top10.19/cpp/exercises/practice/all-your-base",
+    "testcase": "all-your-base",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.20357799999999998,
+    "duration": 333.9747407436371,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 4,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 53229,
+    "completion_tokens": 17396,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "91747e17eee40814d7b74c26f2b8ac77f6d8e241"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "3f637e220c8246a695748e3bde66d63f64c136ac"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "6f239d6eb2a75323401af64fa105763c8582b2f9"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "00ee3c34134fda389b3dc0bbf84c1b61135e07d0"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "2d84f188f99e8b54395fa09241cd4a5d9b581cc6"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d93bdd6049fe626665ead5ae7b4083b18eb88fce"
+        ]
+    ]
+}

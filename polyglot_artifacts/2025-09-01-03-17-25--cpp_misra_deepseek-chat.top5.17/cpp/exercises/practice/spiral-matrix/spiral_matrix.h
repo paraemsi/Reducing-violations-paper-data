@@ -1,0 +1,13 @@
+#if !defined(SPIRAL_MATRIX_H)
+#define SPIRAL_MATRIX_H
+
+#include <vector>
+#include <cstdint>
+
+namespace spiral_matrix {
+
+std::vector<std::vector<std::int32_t>> spiral_matrix(std::int32_t size);
+
+}  // namespace spiral_matrix
+
+#endif  // SPIRAL_MATRIX_H

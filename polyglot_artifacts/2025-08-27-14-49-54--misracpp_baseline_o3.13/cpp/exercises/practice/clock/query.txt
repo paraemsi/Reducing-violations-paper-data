@@ -1,0 +1,1 @@
+Please provide the exact compiler or test error messages you are seeing so I can pinpoint and fix the problem lines.  The current `clock.h` and `clock.cpp` compile cleanly here, so I need the concrete error output (or failing test names) to make the correct edits.

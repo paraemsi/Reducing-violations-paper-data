@@ -1,0 +1,42 @@
+#include "grade_school.h"
+
+#include <algorithm>
+
+namespace grade_school {
+
+bool school::add(const std::string& name, int grade) {
+    // Prevent duplicate student in any grade
+    if (all_students_.count(name) > 0) {
+        return false;
+    }
+    students_by_grade_[grade].insert(name);
+    all_students_.insert(name);
+    return true;
+}
+
+std::vector<std::string> school::grade(int grade) const {
+    std::vector<std::string> result;
+    auto it = students_by_grade_.find(grade);
+    if (it != students_by_grade_.end()) {
+        result.assign(it->second.begin(), it->second.end());
+    }
+    return result;
+}
+
+std::map<int, std::vector<std::string>> school::grades() const {
+    std::map<int, std::vector<std::string>> result;
+    for (const auto& [grade, students] : students_by_grade_) {
+        result[grade] = std::vector<std::string>(students.begin(), students.end());
+    }
+    return result;
+}
+
+std::vector<std::string> school::roster() const {
+    std::vector<std::string> result;
+    for (const auto& [grade, students] : students_by_grade_) {
+        result.insert(result.end(), students.begin(), students.end());
+    }
+    return result;
+}
+
+}  // namespace grade_school

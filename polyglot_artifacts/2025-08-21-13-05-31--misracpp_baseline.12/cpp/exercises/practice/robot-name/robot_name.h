@@ -1,0 +1,24 @@
+#if !defined(ROBOT_NAME_H)
+#define ROBOT_NAME_H
+
+#include <string>
+
+namespace robot_name {
+
+class Robot {
+public:
+    Robot();
+    std::string name() const;
+    void reset();
+
+private:
+    mutable std::string m_name;
+    void generate_name();
+    static bool is_name_taken(const std::string&);
+    static void register_name(const std::string&);
+    static void unregister_name(const std::string&);
+};
+
+}  // namespace robot_name
+
+#endif // ROBOT_NAME_H

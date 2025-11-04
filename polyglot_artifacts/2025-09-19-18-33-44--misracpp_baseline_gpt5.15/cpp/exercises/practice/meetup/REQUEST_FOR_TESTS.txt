@@ -1,0 +1,20 @@
+I need the expected interface to implement for this exercise.
+
+Please add the test file(s) that reference meetup.h to the chat (with their full path names), so I can match the exact function/class names and return types.
+
+If you don't have tests handy, please confirm one of the following interfaces:
+
+Option A (std::chrono):
+- namespace meetup
+- enum class weekday { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
+- enum class schedule { first, second, third, fourth, last, teenth }
+- class scheduler {
+    public:
+      scheduler(int year, int month);
+      std::chrono::year_month_day day(weekday wd, schedule sc) const;
+  };
+
+Option B (return day-of-month only):
+- Same as above, but day(...) returns int (the day of month).
+
+Once confirmed or tests are provided, I'll implement meetups using only the C++ standard library.

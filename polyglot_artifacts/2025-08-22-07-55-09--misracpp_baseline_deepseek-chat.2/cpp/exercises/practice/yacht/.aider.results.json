@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-08-22-07-55-09--misracpp_baseline_deepseek-chat.2/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "deepseek/deepseek-chat",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.01857873,
+    "duration": 379.7605152130127,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 54149,
+    "completion_tokens": 6147,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "4108be66a33c925e5325d8f6cca35608b117d31b"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "348c05a4bae81f9fd171bca8d241343df2014acf"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "ec6d1b9319b4de2b5a73abcb2834f5163099be2a"
+        ],
+        [
+            "d229a439b83a277ab75364ece3dd8437f0cca388",
+            "75c6459dd850106c06a4a0f45c77603ffda0e308"
+        ]
+    ]
+}

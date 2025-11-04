@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-09-01-20-44-08--cpp_misra_o3.top10.2/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.22160399999999997,
+    "duration": 243.5601806640625,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 87858,
+    "completion_tokens": 12816,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a54046cc132d49abeadc05e884e09ec909661976"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "eb112639ebbfeb9610a793bf5b12ada5ec2c6ef8"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "b956a99c115d6163373503d02104432ddb0b473a"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "8bfb1a25f3e219cc29ed08272575ccb194b0549b"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "9063ec8068531504cbfd772838f9f2d95010fc5d"
+        ]
+    ]
+}

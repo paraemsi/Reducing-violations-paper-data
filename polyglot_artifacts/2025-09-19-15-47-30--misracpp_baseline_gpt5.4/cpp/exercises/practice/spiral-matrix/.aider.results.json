@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-19-15-47-30--misracpp_baseline_gpt5.4/cpp/exercises/practice/spiral-matrix",
+    "testcase": "spiral-matrix",
+    "model": "openai/gpt-5",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.772751,
+    "duration": 454.15074706077576,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 8,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 627140,
+    "completion_tokens": 16825,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "ce19ec3bcfc4381a251cf06a02bb7d465e543ac8"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "90e05f0f7cc7442de0b1bf69db8af66639dc5e16"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "925c6e8b446e5c66e9765472ff85cd074471ec7e"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "d7a63051d6dd70e46d5eee4cf0aa5b5cc7862a5f"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "0b324d70f71f6eaa83fc9e21a2ed6b86bb49e1cf"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "7ae550ec209735d55a609d63f00fb282e8bc2140"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "7ae550ec209735d55a609d63f00fb282e8bc2140"
+        ],
+        [
+            "5a29f5974d4a87ced71fd7b4b1ae521a58381d25",
+            "7ae550ec209735d55a609d63f00fb282e8bc2140"
+        ]
+    ]
+}

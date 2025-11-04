@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-09-01-20-53-01--cpp_misra_o3.top10.3/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.15045,
+    "duration": 187.05880975723267,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 60629,
+    "completion_tokens": 10945,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "75649c1693d43e17e89f0ccc76cbd5e055125171"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ab26d141e0eceb5c1652a8f3895cd840d5f6b93b"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "b31f1ca6093e66f1170ed6153b23a14a8009496d"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "943c8a563167bed296cece258ef72a6d2f509c35"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "ef01c2989cc7d612bc91ba01db2abddca14976dc"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "8d0a39915f13437a478d17653b220d875a78a5b5"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "37d3f1d9534fa6072f0e18d19f8717e6b060ed21"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "209b7ee442f9aa7b07f0b91caa6c8b62af6f0fe4"
+        ]
+    ]
+}

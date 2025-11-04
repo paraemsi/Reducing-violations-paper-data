@@ -1,0 +1,15 @@
+#if !defined(GIGASECOND_H)
+#define GIGASECOND_H
+
+#include <chrono>
+
+namespace gigasecond {
+
+typedef std::chrono::system_clock::time_point time_point;
+
+time_point add_gigasecond(const time_point& start);
+time_point advance(const time_point& start);
+
+}  // namespace gigasecond
+
+#endif // GIGASECOND_H

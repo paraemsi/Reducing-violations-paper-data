@@ -1,0 +1,42 @@
+{
+    "testdir": "/benchmarks/2025-09-09-22-10-02--misracpp_baseline_gemini-25-pro.1/cpp/exercises/practice/allergies",
+    "testcase": "allergies",
+    "model": "gemini/gemini-2.5-pro",
+    "edit_format": "diff-fenced",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.26168625,
+    "duration": 188.0713176727295,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 3,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 15605,
+    "completion_tokens": 24218,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "fd805c1ba7eb94377870faef5e59c70f6c1521f4"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "6f95d52ae320ed2983d0acaae99b07c0f64ba6cf"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "934a5b25a8cc9004c8ef37ed174f926016bbb41d"
+        ],
+        [
+            "46e119000c4c60d499eb58d216186f7a1f091bdc",
+            "73870a60f27180ccd3b470389507613ac14bda40"
+        ]
+    ]
+}

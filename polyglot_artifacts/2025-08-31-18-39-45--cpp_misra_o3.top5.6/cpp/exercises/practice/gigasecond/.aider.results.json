@@ -1,0 +1,59 @@
+{
+    "testdir": "/benchmarks/2025-08-31-18-39-45--cpp_misra_o3.top5.6/cpp/exercises/practice/gigasecond",
+    "testcase": "gigasecond",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.152684,
+    "duration": 182.0389928817749,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 6,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 44598,
+    "completion_tokens": 13888,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "a5f4bed3f075094372c12d0493ed883ca977aaa2"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "875f48b1f893fffe1a9dfd20211d95aea5fb352a"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "1a733531287b26919817b53ba4e34c51fd333d3b"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "b5b39377da83fc3aeaa3624e4290c8cc75f39887"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "5c77413173341cdc510394accd6eea8d126803c5"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "739f4f259ba5093564c095494e98f7382ee96514"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "d8ef2b1f124a1c6f3ecba54d1a4f7e8f4076dc23"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "124556271039fa9cddd4e1ba20f075c18fff4108"
+        ]
+    ]
+}

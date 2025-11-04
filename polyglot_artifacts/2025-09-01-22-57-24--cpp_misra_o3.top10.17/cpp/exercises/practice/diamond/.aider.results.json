@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-09-01-22-57-24--cpp_misra_o3.top10.17/cpp/exercises/practice/diamond",
+    "testcase": "diamond",
+    "model": "o3",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.077342,
+    "duration": 105.58911466598511,
+    "test_timeouts": 0,
+    "commit_hash": "32faf82-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "reasoning_effort": null,
+    "prompt_tokens": 24007,
+    "completion_tokens": 6810,
+    "thinking_tokens": null,
+    "chat_hashes": [
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "4af3ca109fbf07571b74ada02f5bfea8a97f5e47"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "94cae5595fd2047c4136cbff15885ded7752aa85"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "860ef4b60574e1dd9d0860d3b995591551828fce"
+        ],
+        [
+            "5570d71e63f5d28449be40ac390705d540cb9709",
+            "c1546f45d0cd38e57d7525404a3842f05a9fc89d"
+        ]
+    ]
+}

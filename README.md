@@ -27,7 +27,6 @@ MISRA C++:2023 violation data from static analysis. Each row represents a single
 - `testcase`: Name of the benchmark programming task
 - `severity`: Violation severity (2=Required, 4=Advisory)
 - `rule.id`: MISRA C++:2023 rule identifier (e.g., MISRACPP2023-6_9_2-a)
-- `rule.category.description`: Rule textual description
 - `finding.resource.searchPath`: Source file containing the violation
 - `finding.region.startLine/endLine`: Location of violation in source code
 

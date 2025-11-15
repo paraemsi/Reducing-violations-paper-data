@@ -1,4 +1,5 @@
 # Reducing MISRA violations in LLM-generated code by 83%: An empirical study with static analysis verification
+[![DOI](https://zenodo.org/badge/1089609865.svg)](https://doi.org/10.5281/zenodo.17617799)
 
 This repository contains the supplementary materials, experimental data, and artifacts for the paper **"Reducing MISRA violations in LLM-generated code by 83\%: An empirical study with static analysis verification"**.
 

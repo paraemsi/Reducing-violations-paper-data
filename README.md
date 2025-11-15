@@ -1,6 +1,6 @@
-# Cutting MISRA C++:2023 violations in LLM-generated code by up to 83% with prompt engineering
+# Reducing MISRA violations in LLM-generated code by 83%: An empirical study with static analysis verification
 
-This repository contains the supplementary materials, experimental data, and artifacts for the paper **"Cutting MISRA C++:2023 violations in LLM-generated code by up to 83% with prompt engineering"**.
+This repository contains the supplementary materials, experimental data, and artifacts for the paper **"Reducing MISRA violations in LLM-generated code by 83\%: An empirical study with static analysis verification"**.
 
 ## Repository Contents
 

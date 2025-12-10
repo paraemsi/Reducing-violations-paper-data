@@ -79,6 +79,28 @@ YYYY-MM-DD-HH-MM-SS--[experiment_type].[iteration_number]
 │           └── [25 more testcases...]
 ```
 
+### [`tools/`](tools/)
+
+Utility scripts for working with the experimental data:
+
+#### [`export_aider_conversation.py`](tools/export_aider_conversation.py)
+
+Exports aider chat history files (`.aider.chat.history.md`) to JSON format containing the complete LLM conversation, including system prompts, file content, repository maps, and all messages with tool calls.
+
+**Usage:**
+```bash
+# Basic usage (auto-detects model from history file)
+./tools/export_aider_conversation.py polyglot_artifacts/<run>/cpp/exercises/practice/<testcase>/.aider.chat.history.md
+
+# Specify output file
+./tools/export_aider_conversation.py .aider.chat.history.md -o conversation.json
+
+# Override model detection
+./tools/export_aider_conversation.py .aider.chat.history.md -m gpt-4
+```
+
+**Requirements:** The script uses inline script metadata (PEP 723) and can be run directly with [`uv`](https://docs.astral.sh/uv/getting-started/installation/) (`curl -LsSf https://astral.sh/uv/install.sh | sh` to install uv).
+
 ## Experimental Design
 
 ### Models Evaluated

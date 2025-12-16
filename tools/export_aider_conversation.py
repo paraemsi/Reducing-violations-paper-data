@@ -36,25 +36,15 @@ conversation as sent to the LLM, including system prompts, file content,
 repository maps, and all messages with tool calls.
 """
 
-import io as io_module
 import json
-import os
 import re
-import sys
 from pathlib import Path
 from typing import Optional
 
 import typer
-
-# Import aider components
-try:
-    from aider.coders import Coder
-    from aider.io import InputOutput
-    from aider.models import Model
-except ImportError:
-    typer.echo("Error: aider package not found. Please install it first.", err=True)
-    raise typer.Exit(code=1)
-
+from aider.coders import Coder
+from aider.io import InputOutput
+from aider.models import Model
 
 app = typer.Typer(
     help="Export aider chat history to LLM conversation format (JSON).",
@@ -68,7 +58,7 @@ def parse_history_header(history_path: Path) -> dict:
 
     Returns a dict with keys: main_model, edit_format, weak_model, started_at
     """
-    metadata = {}
+    metadata: dict = {}
 
     with history_path.open("r", encoding="utf-8") as f:
         for line in f:

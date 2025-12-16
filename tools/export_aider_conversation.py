@@ -2,7 +2,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
-#   "aider",
+#   "aider-chat==0.86.1",
 #   "typer",
 #   "json5",
 #   "packaging",
@@ -91,6 +91,67 @@ def parse_history_header(history_path: Path) -> dict:
     return metadata
 
 
+def get_fnames_from_testdir(testdir: Path, original_polyglot_root: Path | None) -> list[str]:
+    """Get list of filenames in the test directory.
+
+    This piece of code uses logic directly from aider benchmark.py file.
+    """
+    # Read solution and test files from config
+    fnames = []
+    config_file = testdir / ".meta/config.json"
+    if not config_file.exists():
+        raise ValueError(f"No config file found: {config_file}")
+
+    with open(config_file) as f:
+        config = json.loads(f.read())
+
+    # Get file sets from config
+    test_files = config.get("files", {}).get("test", [])
+    example_files = config.get("files", {}).get("example", [])
+    solution_files = set(config.get("files", {}).get("solution", []))
+
+    # Forcibly ignore certain files not covered by test_files and example_files
+    ignore_files = set(
+        [
+            "CMakeLists.txt",
+            "Cargo.toml",
+        ]
+    )
+
+    # Add all files under .meta and .docs directories
+    ignore_files.update(str(p.relative_to(testdir)) for p in testdir.glob(".meta/**/*"))
+    ignore_files.update(str(p.relative_to(testdir)) for p in testdir.glob(".docs/**/*"))
+
+    # Also ignore test & example files
+    ignore_files.update(test_files)
+    ignore_files.update(example_files)
+
+    # Remove any ignore files from the solution set that LLM will edit
+    solution_files.difference_update(ignore_files)
+
+    for file_path in solution_files:
+        if original_polyglot_root:
+            lang_part = str(testdir).split("/exercises/practice/")[0]
+            original_fname = (
+                    original_polyglot_root
+                    / Path(lang_part).name
+                    / "exercises"
+                    / "practice"
+                    / testdir.name
+                    / file_path
+                )
+            src = original_fname
+        else:
+            src = testdir / Path(file_path)
+        if src.exists():
+            fnames.append(src)
+        else:
+            print(f"Warning: Solution file not found: {src}")
+
+    return fnames
+
+
+
 def load_and_export_conversation(
     history_path: Path,
     output_path: Path,
@@ -129,6 +190,9 @@ def load_and_export_conversation(
         chat_history_file=str(history_path),
     )
 
+    fnames = get_fnames_from_testdir(history_path.parent, None)  # Preload filenames if needed
+    typer.echo(f"Preloaded {fnames} solution files from test directory.")
+
     # Prepare coder kwargs
     coder_kwargs = {
         "io": io,
@@ -136,6 +200,8 @@ def load_and_export_conversation(
         "auto_commits": False,
         "dirty_commits": False,
         "auto_lint": False,
+        "use_git": False,
+        "fnames": fnames,
     }
 
     if model:
@@ -149,23 +215,56 @@ def load_and_export_conversation(
         # Extract all messages - done_messages contains the restored history
         typer.echo("Extracting conversation messages...")
 
-        # Get the conversation history FIRST (before format_messages() moves them)
-        conversation_messages = coder.done_messages + coder.cur_messages
+        # IMPORTANT: Get the conversation history FIRST (before format_messages() moves them)
+        # format_messages() modifies coder's internal state and may clear these lists
+        conversation_done = list(coder.done_messages)
+        conversation_cur = list(coder.cur_messages)
 
-        # Get system prompts from format_messages()
+        # Now get all the other chunks (system, examples, repo, chat_files, etc.)
         chunks = coder.format_messages()
-        system_messages = chunks.system if hasattr(chunks, "system") and chunks.system else []
 
-        # Combine: system prompts first, then conversation
-        all_messages = system_messages + conversation_messages
+        # Manually build the complete message list in the correct order for export.
+        # The proper order for analyzing an LLM conversation is:
+        # 1. All system prompts/rules (so rules are established before use)
+        # 2. File content (so files are introduced before being edited)
+        # 3. Conversation history (the actual user/assistant interaction)
+        #
+        # Note: We do NOT use chunks.done/chunks.cur because format_messages()
+        # may have cleared or modified them. We use our saved copies instead.
+        all_messages = (
+            chunks.system           # Main system prompt with general instructions
+            + chunks.reminder       # Detailed rules (e.g., SEARCH/REPLACE format) - MUST come before conversation!
+            + chunks.examples       # Example conversations (if any)
+            + chunks.readonly_files # Read-only file context (if any)
+            + chunks.repo           # Repository map (if any)
+            + chunks.chat_files     # File content introduction (must come before edits in conversation)
+            + conversation_done     # Conversation history (from saved copy)
+            + conversation_cur      # Current messages (from saved copy)
+        )
 
         if not all_messages:
             typer.echo("Warning: No messages found in history.", err=True)
         else:
-            system_count = len(system_messages)
-            conv_count = len(conversation_messages)
+            # Count different message types for diagnostic purposes
+            system_count = len(chunks.system)
+            examples_count = len(chunks.examples)
+            repo_count = len(chunks.repo)
+            readonly_count = len(chunks.readonly_files)
+            chat_files_count = len(chunks.chat_files)
+            done_count = len(conversation_done)
+            cur_count = len(conversation_cur)
+            reminder_count = len(chunks.reminder)
+
             typer.echo(
-                f"Found {len(all_messages)} messages ({system_count} system, {conv_count} conversation)"
+                f"Found {len(all_messages)} total messages:\n"
+                f"  - {system_count} system\n"
+                f"  - {examples_count} examples\n"
+                f"  - {readonly_count} readonly_files\n"
+                f"  - {repo_count} repo\n"
+                f"  - {done_count} done (conversation history)\n"
+                f"  - {chat_files_count} chat_files (contains file content)\n"
+                f"  - {cur_count} cur\n"
+                f"  - {reminder_count} reminder"
             )
 
         # Export to JSON

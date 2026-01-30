@@ -155,6 +155,7 @@ def get_fnames_from_testdir(testdir: Path, original_polyglot_root: Path | None) 
 def load_and_export_conversation(
     history_path: Path,
     output_path: Path,
+    original_polyglot_root: Path | None,
     model: Optional[str] = None,
 ) -> None:
     """
@@ -190,7 +191,7 @@ def load_and_export_conversation(
         chat_history_file=str(history_path),
     )
 
-    fnames = get_fnames_from_testdir(history_path.parent, None)  # Preload filenames if needed
+    fnames = get_fnames_from_testdir(history_path.parent, original_polyglot_root)
     typer.echo(f"Preloaded {fnames} solution files from test directory.")
 
     # Prepare coder kwargs
@@ -295,6 +296,12 @@ def main(
         help="Output JSON file path",
         resolve_path=True,
     ),
+    original_polyglot_root: Optional[Path] = typer.Option(
+        None,
+        "--original-polyglot-root",
+        help="Path to original polyglot root for original file content",
+        resolve_path=True,
+    ),
     model: Optional[str] = typer.Option(
         None,
         "--model",
@@ -317,7 +324,7 @@ def main(
 
         python export_aider_conversation.py .aider.chat.history.md -m gpt-4
     """
-    load_and_export_conversation(history_path, output, model)
+    load_and_export_conversation(history_path, output, original_polyglot_root, model)
 
 
 if __name__ == "__main__":
